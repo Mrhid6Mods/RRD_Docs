@@ -52,5 +52,8 @@
 *** xref:ds/buildings/serverrack.adoc[Server Rack]
 *** xref:ds/buildings/servers.adoc[Servers]
 *** xref:ds/buildings/adapters.adoc[Adapters]
+** xref:ds/info/drives.adoc[Drives]
+** xref:ds/info/crafting.adoc[Crafting]
+** xref:ds/info/wirelessnetworking.adoc[Wireless Networking]
 
 * xref:ssm/index.adoc[SSM]
