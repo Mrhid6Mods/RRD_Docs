@@ -78,7 +78,7 @@ If you see a <span style="color:red;">Red</span> indicator something is not conn
 
 === Storage Drives
 
-Once you have the Server placed in the Server Rack its time to fill the Server with storage <a href="/refinedrd/latest/ds/drives.html#_Drives">Drives</a>.
+Once you have the Server placed in the Server Rack its time to fill the Server with storage <a href="/refinedrd/latest/ds/info/drives.html#_Drives">Drives</a>.
 
 Craft 4 DS Drive (256) drives, you can craft them in the Work Bench or in an assembler.
 

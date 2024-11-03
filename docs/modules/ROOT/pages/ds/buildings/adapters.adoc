@@ -14,6 +14,8 @@ The storage connection adapter can snap to storage contains and can import or ex
 
 The storage connection adapter adds a new tab to the containers UI and the tab is where you configure which items can be imported/exported.
 
+
+
 [NOTE]
 ====
 The storage connection adapter allows you to specify 6 items to import or export

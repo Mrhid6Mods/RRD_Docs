@@ -1,0 +1,121 @@
+= Modular Reactors
+
+== Introduction:
+Modular Reactor is designed to fit with the Modularity of the existing mod buildings like Modular Power.
+
+Modular Reactors are the direct replacement to **ARC Reactors**.
+
+In version 3.1.0 this will be the first iteration of Modular Reactors, future plans are to add different variants to the existing components.
+One future concept is to add a different reactor chamber to allow more power production.
+
+
+== Modules:
+
+* Foundation
+* Support Ring
+* Reactor Chambers
+* Cooling System
+* Heat Shielding
+* IO Ports
+ 
+
+
+== Modes
+There are 3 possible modes for the Reactor to operate in.
+In all modes there is a *spin up time* starting the reactor and changing the reactor clock setting
+
+Overclocking the Reactor above 100% (or 150% with coolant) will result in the reactor gaining heat , reaching the max temperature will cause the reactor to trigger an emergency shutdown
+Underclocking the reactor will cause it to loose heat.
+
+[NOTE]
+====
+You can see the current Reactor Heat in the Reactor Foundation screen, you can see the heat per cycle in the IO Modules screen
+====
+
+=== Power only
+In power only mode the reactor will only output power to the power grid
+
+====Reactor Stats
+|===
+| |Power(MW)|Fuel/min |Water |coolant |heat/cycle
+
+|Clock @ 25%
+|1,250
+|0.063
+|2
+|2
+|16.7%
+
+|Clock @ 50%
+|2,500
+|0.125
+|2
+|2
+|33.3%
+
+|Clock @ 100%
+|5,000
+|0.25
+|2
+|2
+|66.7%
+
+|Clock @ 150%
+|7,500
+|0.375
+|2
+|2
+|100%
+
+|Clock @ 200%
+|10,000
+|0.5
+|Increases as temperature rises
+|Increases as temperature rises
+|133.3%
+
+|Clock @ 200%
+|10,000
+|0.5
+|Increases as temperature rises
+|Increases as temperature rises
+|166.7%
+|===
+
+=== Steam only
+In Steam Mode the Reactor using its internal heat to convert water into Compressed Steam to use in the Super HV Turbine
+
+====Reactor Stats
+
+The reactor clock set to 100% (or 150%) will maintain the current heat level inside the reactor the fuel usage will be stable at 0.25(0.375) at this clock setting
+
+|===
+| |Water |coolant |Steam
+
+|heat @ 25%
+|130
+|28
+|110
+
+|heat @ 50%
+|150
+|35
+|125
+
+|heat @ 75%
+|157
+|41
+|130
+
+|heat just below 100%
+|180
+|41
+|150
+|===
+
+[Note]
+====
+These are very close values, may vary slightly due to being heat dependant and the fluctuations in the reactors internal heat.
+====
+
+=== Power and Steam
