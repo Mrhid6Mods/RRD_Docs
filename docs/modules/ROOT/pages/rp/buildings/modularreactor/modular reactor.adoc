@@ -36,6 +36,12 @@ You can see the current Reactor Heat in the Reactor Foundation screen, you can s
 In power only mode the reactor will only output power to the power grid
 
 ====Reactor Stats
+
+===== DT Reactor Cores
+
+> TODO: Add DT Reactor Core Stats
+
+===== Deanorium Reactor Cores        
 |===
 | |Power(MW)|Fuel/min |Water |coolant |heat/cycle
 

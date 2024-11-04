@@ -1,6 +1,6 @@
 = Drives
 
-There are 3 catagories of drives: Item, Fluid and Gas, each with different sizes.
+There are 3 categories of drives: Item, Fluid and Gas, each with different sizes.
 The different Drives can only go into their respective servers
 
 The Tier 3 milestone lets you unlock the base drives, the additional drive unlocks are under the DS tab of the MAM

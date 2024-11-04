@@ -3,6 +3,7 @@
 ** xref:rp/buildings/index.adoc[Buildings]
 *** xref:rp/buildings/windturbines/index.adoc[Wind Turbines]
 *** xref:rp/buildings/waterturbines/index.adoc[Water Turbines]
+*** xref:rp/buildings/waterdams/index.adoc[Water Dams]
 *** xref:rp/buildings/solarpanels/index.adoc[Solar Panels]
 *** xref:rp/buildings/reactors/index.adoc[Reactors]
 **** xref:rp/buildings/reactors/Micro-Reactor.adoc[Micro Reactor]
