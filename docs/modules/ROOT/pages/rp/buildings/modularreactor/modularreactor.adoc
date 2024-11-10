@@ -1,24 +1,4 @@
-= Modular Reactors
-
-== Introduction:
-Modular Reactor is designed to fit with the Modularity of the existing mod buildings like Modular Power.
-
-Modular Reactors are the direct replacement to **ARC Reactors**.
-
-In version 3.1.0 this will be the first iteration of Modular Reactors, future plans are to add different variants to the existing components.
-One future concept is to add a different reactor chamber to allow more power production.
-
-
-== Modules:
-
-* Foundation
-* Support Ring
-* Reactor Chambers
-* Cooling System
-* Heat Shielding
-* IO Ports
- 
-
+= Modular Reactor Modes
 
 == Modes
 There are 3 possible modes for the Reactor to operate in.
@@ -40,8 +20,6 @@ These stats are with shielding MK. 3 rings and Reactor Cooling rings with coolan
 In power only mode the reactor will only output power to the power grid
 
 ====Reactor Stats
-
-
 
 ===== DT Reactor Cores
 
@@ -151,9 +129,6 @@ In Steam Mode the Reactor using its internal heat to convert water into Compress
 ====Reactor Stats
 
 The reactor clock set to 150% will maintain the current heat level inside the reactor the fuel usage will be stable at this clock setting
-
-
-148 - 140e
 
 |===
 | |Water |coolant |Compressed Steam
