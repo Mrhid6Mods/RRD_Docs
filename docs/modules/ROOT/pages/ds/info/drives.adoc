@@ -3,36 +3,50 @@
 There are 3 categories of drives: Item, Fluid and Gas, each with different sizes.
 The different Drives can only go into their respective servers
 
-The Tier 3 milestone lets you unlock the base drives, the additional drive unlocks are under the DS tab of the MAM
+The Tier 3 milestone lets you unlock the base item drive, the additional drive unlocks are under the DS tab of the MAM
 
 [NOTE]
 ====
 unfiltered partitions allow any item to fill that partition, best practice: have all partitions filtered for desired item
-
-There may be a moment between creating the partition on an existing network and setting the partition filter where the new partition starts filling up
-once the partition filter is set the items will go into the servers buffer and allow the filtered item to start filling the drive
+Drive Recipes may change in a future update
 ====
 
-== Item Drives
-Drive sizes are the following: 256, 512, 1K, 2K, 4k, 8k and 16K
+== Drive Terminal
+Setting up and partitioning drives are done using the Drive Terminal
 
-The 256 - 2k drives can hold 4 partitions Max, while the 4k, 8k and 16k drives can hold 8 total partitions.
-
-
-== Fluid Drives
-Drive sizes are the following: 10m3, 20m3, 40m3 and 60m3
-
-The 10m3 drive can hold 4 partitions, the other 3 can all hold 8 partitions
+* First insert a drive and drag the orange bar up to lock in a drive, the drive can then be named (Optional) and formatted.
+** Once Locked the drive information will show the details of the drive
+* Once initially formatted the GUI will now have different options
+** Edit Drive - create and edit drive partitions adding filters at the same time
+** Drive Templates - create and set partition templates to pre format the drives with pre-configured partition quantities and sizes.
+** Wipe Drive - Delete all remaining items in the drive and remove all partitions
+* Once Drive is formatted and configured, lowering the orange bar will unlock the drive and you can drag the drive back into your inventory.
 
 [NOTE]
 ====
-In the partitions fluids will display as Litres i.e. 10m3 drive with one full water partition will display as 10,000 `1000(L) per m3`
+* setting item filters in the Edit Drive GUI is still required when drive templates are used.
+* as of writing drives cannot be emptied back into the network, that will change with a later update
+====
+
+== Item Drives
+Drive sizes are the following: 256, 512, 1K, 2K, 4k, 8k, 16K, 32K and 64K
+
+The 256 - 2k drives can hold 4 partitions Max, while the 4k and above drives can hold 8 total partitions.
+
+== Fluid Drives
+Drive sizes are the following: 10{nbsp}m³, 20m{nbsp}m³, 40{nbsp}m³, 60{nbsp}m³, 120{nbsp}m³ and 240{nbsp}m³
+
+The 10{nbsp}m³ drive can hold 4 partitions, the others can all hold 8 partitions
+
+[NOTE]
+====
+In the partitions fluids will display as Litres i.e. 10{nbsp}m³ drive with one full water partition will display as 10,000 `1000(L) per {nbsp}m³`
 ====
 
 == Gas Drives
-Drive sizes are the following: 40m3 and 60m3
+Drive sizes are the following: 40{nbsp}m³, 60{nbsp}m³, 120{nbsp}m³ and 240{nbsp}m³
 
-Both Gas Drives can hold 8 partitions
+Gas Drives can hold 8 partitions
 
 [NOTE]
 ====

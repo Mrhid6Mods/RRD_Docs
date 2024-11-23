@@ -82,6 +82,8 @@ Once you have the Server placed in the Server Rack its time to fill the Server w
 
 Craft 4 DS Drive (256) drives, you can craft them in the Work Bench or in an assembler.
 
+Format and partition the drives using the Drive Terminal.
+
 [NOTE]
 ====
 More drive options can be unlocked in the MAM
