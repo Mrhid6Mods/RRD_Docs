@@ -3,16 +3,16 @@
 There are 3 categories of drives: Item, Fluid and Gas, each with different sizes.
 The different Drives can only go into their respective servers
 
-The Tier 3 milestone lets you unlock the base item drive, the additional drive unlocks are under the DS tab of the MAM
+The Tier 3 milestone lets you unlock the base item drive, the additional drive unlocks are under the DS tab in the MAM
 
 [NOTE]
 ====
-unfiltered partitions allow any item to fill that partition, best practice: have all partitions filtered for desired item
+Unfiltered partitions allow any item to fill that partition, best practice: have all partitions filtered for desired item
 Drive Recipes may change in a future update
 ====
 
 == Drive Terminal
-Setting up and partitioning drives are done using the Drive Terminal
+Setting up and partitioning drives is done using the Drive Terminal
 
 * First insert a drive and drag the orange bar up to lock in a drive, the drive can then be named (Optional) and formatted.
 ** Once Locked the drive information will show the details of the drive
