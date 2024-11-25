@@ -113,7 +113,7 @@ The Solution heater can produce 750{nbsp}℃ heat and can be fed with the follow
 | Fuel|30|12{nbsp}m³|30{nbsp}m³
 | Turbofuel|35|4{nbsp}m³|45{nbsp}m³
 | Methane |35|6{nbsp}m³|30{nbsp}m³
-| Rocketfuel |40|6{nbsp}m³|3ß{nbsp}m³
+| Rocketfuel |40|6{nbsp}m³|30{nbsp}m³
 | Ionised Fuel|50|10{nbsp}m³|75{nbsp}m³
 |===
 
