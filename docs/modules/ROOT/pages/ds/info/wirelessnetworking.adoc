@@ -1,13 +1,25 @@
 = Wireless Tower
-The Wireless Tower is a building that can connect a network without the need for cables.
-wireless towers can only have one other tower linked to them using the uplink id. but a network can have multiple towers on it.
+The Wireless Tower is a building that can connect a network across a distance without the need for cables.
+wireless towers act as a wireless hub/access point that can only link to Ground Antennas. but can have multiple Ground Antennas linked.
+
+The GUI shows connected ground antennas and lets you link/unlink them easily, you can rename the Tower from the top bar above the map for easy identification.
 
 [NOTE]
 ====
-linked towers have unlimited range between them but an increase of power draw depending on how far apart they are from each other.
+linked Towers/Ground Antennas have unlimited range between them but an increase of power draw depending on how far apart they are from each other.
 ====
 
 Wireless Towers also act as a Wireless Access point for the Wireless Tablet with Broadcasting range of 40m and a max range of 490M with the use of Wireless Range Extenders
+
+== Wireless Ground Antennas
+Wireless Ground Antennas act as a remote transceiver/client, connecting to a Wireless Tower to allow transmission of a network to multiple locations.
+
+Wireless Ground Antennas will only connect to a Wireless Tower. but one tower can have multiple Ground Antennas linked. you can rename the Antenna in the GUI
+
+[NOTE]
+====
+you can click on a different Tower/Antenna in the GUI and it will place the Guid into the Link Tower input box to allow for easy linking.
+====
 
 == Wireless Access Point
 The Wireless Access Point allows for the Wireless Tablet to connect to the network at a limited range.

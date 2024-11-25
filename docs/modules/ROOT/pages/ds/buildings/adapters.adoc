@@ -4,6 +4,13 @@ Mostly all adapters have the ability to snap to buildings (Furnaces, Constructor
 
 The only exceptions are the Power Adapter and Pipe Connection Adapter which are standalone buildings.
 
+Adapters can Daisy chain together.
+
+Adapters will show their network connection state on the front on them
+* Green - connect to powered network
+* Orange - connected network unpowered/fuse blown
+* Red - not connected to any network
+
 [NOTE]
 ====
 The Adapters are found in the DS tab of the MAM

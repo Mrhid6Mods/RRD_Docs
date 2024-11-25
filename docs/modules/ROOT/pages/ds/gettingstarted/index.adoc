@@ -2,7 +2,7 @@
 
 == First Steps
 
-The first steps to getting started with Digital Storage is to unlock the first Milestone (Basic Networks) in the HUB at Tier 3.
+The first steps to getting started with Digital Storage is to unlock the first Milestones (Basic Networks) and (Basic Drives) in the HUB at Tier 3.
 
 This will unlock the first buildings and items in the mod.
 
@@ -48,7 +48,7 @@ The Network Distributor must be connected to a Network Pole and not directly to 
 
 === Network Power
 
-Each Digital Storage buildable requires network power.
+Both the *Network Power Adapter* and the *Network Distributor* needs to be connected to the main power grid.
 
 Adding Power to the network is done using the *Network Power Adapter*, Simply connect the building to a Network Pole and Power Pole.
 
@@ -58,8 +58,8 @@ You will need to specify the network where the power is assigned through the bui
 
 [NOTE]
 ====
-The Network you specify in the Power Adapters UI will need to be the same network you assigned on the Network Distributor.
-E.g Power Adapter -> Network Pole -> Network Distributor
+* Power Adaptors will automatically link to the connected network set in the Network Distributor
+* If the power fuse trips on a network you will receive a popup on screen telling you the network that tripped
 ====
 
 === Network Storage
@@ -94,11 +94,9 @@ Adding these drives to the Servers UI allows the network to store items in the S
 The total amount of items a drive can hold is identified in the Item name e.g. DS Drive (256)
 In this example the total number of items the drive can store is 256.
 
-By default a Drive can hold 1 type of Item. For-example 256x Iron Ore.
+You set how many items of what type using partitions. Each drive has a limited amount of partitions that can be added.
 
-You can increase the amount of item types by using Partitions. Each drive has a limited amount of partitions.
-
-Splitting the drive using partitions means you can have multiple item types but less storage for that type.
+Splitting the drive using multiple partitions means you can have multiple item types but less storage for that type.
 
 For-Example:
 
@@ -106,11 +104,17 @@ For-Example:
 * 100x Iron Ingot
 * 56x Iron Rod
 
+for more information about drives and partitioning them see the xref:ds/info/drives.adoc[Drives] page
+
 === Storage Terminals
 
 The *Storage Terminal* allows you to view and import/export items to/from your inventory.
 
 You can request items directly into your inventory or to the output slots in the UI.
+
+=== Drive Terminals
+
+Drive terminals are used to configure blank drive to be used in servers.
 
 
 === Storage Connection Adapters
