@@ -1,0 +1,89 @@
+# Digital Storage
+
+The Refined R&D API adds the ability for your mod to integrate with the Digital Storage mod.
+
+[NOTE]
+====
+If your mod has buildings that inherit from the base class (e.g., Constructor Mk4.. etc.) and just increases the crafting speed.
+You do not need to implement this.
+====
+
+## Installation
+
+1. Download the mod from our public https://gitea.hostxtra.co.uk/RefinedRD/sf_mod_refinedrdapi[repository].
+2. Add the mod to your SML Project.
+3. Add the RefinedRDApi dependency to your uplugin file.
+
+## Creating The Data Assets
+
+Inside your mods content folder, create a new Data Asset by right-clicking on the content browser.
+Hover over Miscellaneous, then Data Asset.
+
+Once the `Pick Class for Data asset instance` window opens, search for `RRDA` you will see the following data assets classes:
+
+* RRDADataAssetDSAdapterCover
+* RRDADataAssetDSModAdapter
+* RRDADataAssetDSItemFilter
+
+
+## Adding Adapter Covers
+
+If your building inherits the base game class but has changed the mesh, you will need to implement this data asset.
+
+Select the `RRDADataAssetDSAdapterCover` data asset.
+
+Change the `M Building Class` to your building class.
+
+Add Covers to the `M Covers` variable; each element in the array will have `M Relative Transform` and `Is Conveyor`
+
+This is the relative transform from the buildings origin to the Conveyor connection or Pipe Connection.
+
+Digital Storage will add an Adapter Cover to this transform.
+
+You can also choose if the adapter cover is a conveyor or a pipe cover.
+
+[NOTE]
+====
+In the Refined R&D Api mod, we include both the Conveyor and Pipe adapter cover meshes, which can be used to get the correct placement on your building.
+====
+
+
+## Universal Adapter integration
+
+If you have a custom building that adds an inventory and has a belt or pipe connection, you will need to add the `RRDADataAssetDSModAdapter` data asset to your mod.
+
+Change the `M Building Class` variable to your building class.
+
+Set up the adapter covers using the instructions above and change the `M Adapter Covers Asset` variable.
+
+### Setting up Inventory Access
+
+For each inventory in your building that you want Digital Storage to interact with, add them to the `M Inventory Access` array variable.
+
+* Give the Inventory a display name that will be shown in the Universal Adapter UI in `M Inventory Display Name`
+* Set the `M Inventory Name` to match the inventory name exactly on your building.
+* Set the `M Inventory Index` to the Inventory Index. For example, if you have one Inventory, this will be 0.
+
+Next you must specify which Inventory slots Digital Storage can access on the Inventory.
+
+For each inventory slot, add a new element to the `M Inventory Slots` variable.
+
+* Set the `M Inventory Slot Index` variable to the Inventory Slot Index.
+* Set the `M Inventory Slot Display Name` to a friendly name that will appear on the UI.
+* Set the `M Interaction` variable to either `Import To Network From Slot` or `Export From Network To Slot`. This will let Digital Storage know which direction to transfer items, either move items into this slot or move items into the network.
+* (Optional) Check the checkbox next to `M Item Filters` to enable the Item Filter array. This array allows you to specify which items should show in the UI for this slot.
+* (Optional) Check the check box for `M Check Slot Item Filter` If this is checked, the Universal adapter UI will check to see if the inventory slot has an Item Filter and only make this item selectable in the UI.
+* (Optional) Check the check box for `M Automatically Set From Slot Item Filter` if this is checked, the Universal adapter will automatically set the task to whatever item is filtered on the inventory slot. This disables the Item selection dropdown in the UI.
+
+### Network Connection
+
+By default, the universal adapter will look for the first power connection component in your building and add a new Network connection to this location.
+
+If your building doesn't have a Power Connection, then you can specify where the network connection should be.
+
+Check the check box next to the `M Network Connection Relative Transform` variable and specify where the network connection should go.
+
+[NOTE]
+====
+This will automatically add the Digital Storage Network Connection mesh to this transform.
+====

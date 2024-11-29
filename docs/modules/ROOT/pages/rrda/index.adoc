@@ -1,0 +1,5 @@
+# Refined R&D API
+
+The Refined R&D API mod is designed to allow other mods integration to Refined Power, Ficsit Farming and Digital Storage.
+
+The API uses a GameInstance Subsystem to search for all Data Assets of a certain class. This search will also search inside of other mods and register them.

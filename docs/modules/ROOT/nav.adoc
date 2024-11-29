@@ -47,3 +47,6 @@
 ** xref:ds/info/wirelessnetworking.adoc[Wireless Networking]
 
 * xref:ssm/index.adoc[SSM]
+
+* xref:rrda/index.adoc[Refined R&D API]
+** xref:rrda/digitalstorage.adoc[Digital Storage]
