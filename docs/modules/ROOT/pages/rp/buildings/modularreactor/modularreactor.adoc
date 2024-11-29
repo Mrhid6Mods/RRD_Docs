@@ -19,7 +19,7 @@ These stats are with shielding MK. 3 rings and Reactor Cooling rings with coolan
 === Power only
 In power only mode the reactor will only output power to the power grid
 
-====Reactor Stats
+==== Reactor Stats
 
 ===== DT Reactor Cores
 
@@ -126,7 +126,7 @@ In power only mode the reactor will only output power to the power grid
 === Steam only
 In Steam Mode the Reactor using its internal heat to convert water into Compressed Steam to use in the Super HV Turbine
 
-====Reactor Stats
+==== Reactor Stats
 
 The reactor clock set to 150% will maintain the current heat level inside the reactor the fuel usage will be stable at this clock setting
 
@@ -154,7 +154,7 @@ The reactor clock set to 150% will maintain the current heat level inside the re
 |196{nbsp}m³
 |===
 
-[Note]
+[NOTE]
 ====
 These are very close values taken at the around start of the cycle, and will vary due to being heat dependant and the fluctuations in the reactors internal heat.
 ====
