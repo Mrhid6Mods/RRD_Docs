@@ -17,7 +17,7 @@ You do not need to implement this.
 ## Creating The Data Assets
 
 Inside your mods content folder, create a new Data Asset by right-clicking on the content browser.
-Hover over Miscellaneous, then Data Asset.
+Hover over `Miscellaneous`, then `Data Asset`.
 
 Once the `Pick Class for Data asset instance` window opens, search for `RRDA` you will see the following data assets classes:
 
