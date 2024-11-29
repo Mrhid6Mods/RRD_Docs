@@ -113,8 +113,8 @@ The Solution heater can produce 750{nbsp}℃ heat and can be fed with the follow
 | Fuel|30|12{nbsp}m³|30{nbsp}m³
 | Turbofuel|35|4{nbsp}m³|45{nbsp}m³
 | Methane |35|6{nbsp}m³|30{nbsp}m³
-| Rocketfuel |40|10{nbsp}m³|120{nbsp}m³
-| Ionised Fuel|50|6{nbsp}m³|90{nbsp}m³
+| Rocketfuel |35|6{nbsp}m³|30{nbsp}m³
+| Ionised Fuel|50|10{nbsp}m³|75{nbsp}m³
 |===
 
 === Nuclear Heater
@@ -126,5 +126,5 @@ The Nuclear heater can produce 2{nbsp}000{nbsp}℃ heat and can be fed with the 
 | Plutonium|2{nbsp}000|0.0625|Plutonium Waste (Vanilla)| 0.625
 | DT Reactor Core|2{nbsp}500|0.5|Advanced Reactor Cores|0.5
 | Deanorium Reactor Core|2{nbsp}500|0.125|Advanced Reactor Cores|0.125
-| Ficsonium Fuel Rods|2{nbsp}500|0.5|None|0
+| Ficsonium Fuel Rods|2{nbsp}500|0.667|None|0
 |===
