@@ -14,6 +14,12 @@ You do not need to implement this.
 2. Add the mod to your SML Project.
 3. Add the RefinedRDApi dependency to your uplugin file.
 
+[NOTE]
+====
+It is recommended to have this as a hard dependency however it will work without issues if the RefinedRDApi mod is not installed.
+You will just need the RefinedRDApi mod added to your SML Project to create the data assets.
+====
+
 ## Creating The Data Assets
 
 Inside your mods content folder, create a new Data Asset by right-clicking on the content browser.
