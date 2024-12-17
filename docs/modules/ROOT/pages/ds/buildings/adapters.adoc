@@ -92,3 +92,8 @@ To access the UI for the Universal Adapter you Must have the Digital Storage Mul
 When the UI opens you will be presented with all the inventories and inventory slots that have been made available for Digital Storage to interact with.
 
 Configure the inventory slots to import or export items to the building.
+
+Currently the following mods support Digital Storage integration:
+
+* Refined Power
+* Ficsit Farming
