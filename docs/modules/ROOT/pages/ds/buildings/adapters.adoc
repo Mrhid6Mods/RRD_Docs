@@ -81,3 +81,14 @@ Export Iron Rods when there is less then 100 in the network: `< 100`
 The Crafting Adapter can snap to factory buildings (Furnaces, Constructors, Assemblers, etc.) and allows the ability to on-demand craft items.
 
 The adapter will auto assign the correct recipe to craft when the crafting server requests it.
+
+
+== Universal Adapter
+
+The Universal Adapter can snap to mostly any building that cant be snapped by other adapters. This includes compatible modded buildings.
+
+To access the UI for the Universal Adapter you Must have the Digital Storage Multitool equipped and press left mouse click whilst hovering over the building.
+
+When the UI opens you will be presented with all the inventories and inventory slots that have been made available for Digital Storage to interact with.
+
+Configure the inventory slots to import or export items to the building.
