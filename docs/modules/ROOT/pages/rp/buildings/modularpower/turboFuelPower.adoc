@@ -1,0 +1,290 @@
+= Building a closed loop TurboFuel Plant
+
+This will detail how to build a closed-loop turbo fuel power plant providing 22.5 GW of power.
+
+Input required:
+
+* 240 m³/min Compressed Coal
+* 540 m³/min Crude Oil
+* 225 m³/min Limestone
+* Startup water - a single water extractor could be used
+
+Byproducts :
+
+* 270 m³/min Polymer Resin
+* 2 025 m³/min Carbon Dust
+
+[NOTE]
+====
+The listed resources only cover the buildings. Foundations, walls, conveyor belts, and piping are an extra expense. Also ignored is the energy and buildings required to handle the produced byproducts.
+
+* Mk.3 Belts can be used everywhere.
+* Mk.1 Pipes can be used for CO₂, Turbo Fuel and Low Pressure Steal -> H₂0.
+* Mk.2 Pipes are required for Fuel, Crude Oil, and H₂0 input.
+* There is no downside of using Mk.2 Pipes throughout other than more expense
+====
+
+== Requirements
+
+Unlocked :
+
+* Earlier Items from the Basic Setup
+* Turbo Fuel (MAM Sulfur Research)
+* Mk.2 Boiler (Tier 5)
+* Mk.2 Turbine (Tier 5)
+* MV Generator (Tier 5)
+* Solution Heater (Tier 6)
+
+== Producing Turbo Fuel
+
+You will need to produce 300 m³/min of Turbo Fuel, achievable with 9.6 Assemblers with the following
+
+* 240 m³/min Coal (Mk2 Miner @100% Pure Node)
+* 240 m³/min Sulfur (Mk2 Miner @100% Pure Node)
+
+[%header, cols="2e,>1,>1"]
+|===
+^| Item ^| Each ^| Total
+| Reinforced Iron Plate | 8 | 80
+| Rotor | 4 | 40
+| Cable | 10 | 100
+| Power | 15 MW | 142.6 MW
+|===
+
+Next, obtain 540 m³/min of crude oil - in my example that's 2 extractors running @150%, one on a Pure node, the other on a Normal node.
+
+* 9 Refineries @ 100% with the "Fuel" recipe
+* 16 Refineries @ 100% with the "Turbo Fuel" recipe
+
+[%header, cols="2e,>1,>1"]
+|===
+^| Item ^| Each ^| Total
+| Motor | 10 | 250
+| Encased Industrial Beam | 10 | 250
+| Steel Pipe | 30 | 750
+| Copper Sheet | 20 | 500
+| Power | 30 MW | 750 MW
+|===
+
+image::https://raw.githubusercontent.com/jtsage/RRD_Docs/refs/heads/master/images/rp/modularPowerFuel/crude-to-fuel.png[]
+
+image::https://raw.githubusercontent.com/jtsage/RRD_Docs/refs/heads/master/images/rp/modularPowerFuel/fuel-to-turbo.png[]
+
+== Producing Steam
+
+The following is separated into 15 modules, each with 5 generators as the math works best for that.
+
+image::https://raw.githubusercontent.com/jtsage/RRD_Docs/refs/heads/master/images/rp/modularPowerFuel/pod-burners.png[]
+
+=== Boiler Platform
+
+Each module contains 5 Boiler Platforms, for 75 total.
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Total
+| Reinforced Iron Plate | 6 | 30 | 450
+| Iron Rod | 20 | 100 | 1 500
+| Modular Frame | 2 | 10 | 150
+|===
+
+=== Solution Heater
+
+Each module contains 5 Solution Heaters, for 75 total.
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Total
+| Heavy Modular Frame | 20 | 100 | 1 500
+| Computer | 5 | 25 | 375
+| Rubber | 40 | 200 | 3 000
+| Quickwire | 50 | 250 | 3 750
+|===
+
+=== Mk. 2 Boiler
+
+Each module contains 5 Mk.2 Boilers, for 75 total.
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Totals
+| Copper Sheet | 100 | 500 | 7 500
+| Reinforced Iron Plate | 20 | 100 | 1 500
+| Heavy Modular Frame | 5 | 25 | 375
+|===
+
+=== CO₂ Refinery
+
+To turn CO₂ into carbon dust, we need limestone and 1 refinery per module running at 75% for 15 total.
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Totals
+| Motor | 10 | 10 | 150
+| Encased Industrial Beam | 10 | 10 |150
+| Steel Pipe | 30 | 30 | 450
+| Copper Sheet | 20 | 20 | 300
+| Power | 20.5 MW | 20.5 MW | 307.5 MW
+|===
+
+== Producing Power
+
+The following is also separated into 15 modules, each with 5 generators as the math works best for that.
+
+image::https://raw.githubusercontent.com/jtsage/RRD_Docs/refs/heads/master/images/rp/modularPowerFuel/pod-turbines.png[]
+
+=== Converter Platform
+
+Each module contains 5 Converter Platforms, for 75 total.
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Totals
+| Reinforced Iron Plate | 6 | 30 | 450
+| Iron Rod | 20 | 100 | 1 500
+| Modular Frame | 2 | 10 | 150
+|===
+
+=== Mk.2 Turbine
+
+Each module contains 5 Mk.2 Turbines, for 75 total.
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Totals
+| Heavy Modular Frame | 6 | 30 | 450
+| Motor | 5 | 25 | 375
+| Computer | 4 | 20 | 300
+|===
+
+=== MV Generator
+
+Each module contains 5 MV Generators, for 75 total.
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Totals
+| Heavy Modular Frame | 4 | 20 | 300
+| Circuit Board | 20 | 100 | 1 500
+| Quickwire | 100 | 500 | 7 500
+|===
+
+=== Low Pressure Steam to H₂0
+
+If you should prefer not to build this as a closed loop, you will need 2 Steam Cooling Towers per module, *and* 450 m³/min of water input.
+
+For a closed loop, you will want a fluid buffer as well
+
+==== Industrial Fluid Buffer, 15 total
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+|Items |Each|Module|Total
+| Encased Industrial Beam | 5 | 5 | 75
+| Copper Sheet | 10 | 10 | 150
+| Plastic | 25 | 25 | 375
+|===
+
+There is a space vs. power trade off available here.  Each module needs 7.5 Refineries worth of production - you can do it in many ways, detailed here.
+
+
+==== 8 Refineries - 7 @ 100%, 1 @ 50%
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+|Items |Each|Module|Total
+| Motor | 10 | 80 | 1 200
+| Encased Industrial Beam | 10 | 80 | 1 200
+| Steel Pipe | 30 | 240 | 3 600
+| Copper Sheet | 20 | 160 | 2 400
+| Power | 30MW | 222 MW | 3 330 MW
+| Power Shards | None | None | None
+|===
+
+==== 5 Refineries @ 150%
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Totals
+| Motor | 10 | 50 | 750
+| Encased Industrial Beam | 10 | 50 | 750
+| Steel Pipe | 30 | 150 | 2 250
+| Copper Sheet | 20 | 100 | 1 500
+| Power | 51 MW | 256 MW | 3 845 MW
+| Power Shards | 1 | 5 | 75
+|===
+
+==== 3 Refineries @ 250%
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Items ^| Each ^| Module ^| Totals
+| Motor | 10 | 30 | 450
+| Encased Industrial Beam | 10 | 30 | 450
+| Steel Pipe | 30 | 90 | 1 350
+| Copper Sheet | 20 | 60 | 900
+| Power | 101 MW | 302 MW | 4 532 MW
+| Power Shards | 3 | 15 | 135
+|===
+
+== Consumed Power vs. Generated
+
+The following is consumed in every situation
+
+[%header, cols="2e,>1,>1"]
+|===
+^| Procedure ^| Power ^| Percentage
+| Compressed Coal | 142.6 MW | 0.6%
+| Turbo Fuel | 750 MW | 3.3%
+| Carbon Dust | 307.4 MW | 1.3%
+s| Total s| 1 200 MW s| 5.2%
+|===
+
+And either of :
+
+[%header, cols="2e,>1,>1,>1"]
+|===
+^| Procedure ^| Power ^| Percentage ^| Net
+| 3 Refinery option | 4 532 MW | 20% | 16 700 MW
+| 5 Refinery option | 3 845 MW | 17% | 17 400 MW
+| 7.5 Refinery option | 3 330 MW | 14.8% | 17 900 MW
+|===
+
+Given the small difference between the 7.5 and 5 Refinery versions, if you have the power shards, it seems the 5 building option is a better use of space and will simplify piping.
+
+== Total Building Materials
+
+image::https://raw.githubusercontent.com/jtsage/RRD_Docs/refs/heads/master/images/rp/modularPowerFuel/pod-outside.png[]
+
+This table assumes the use of the 7.5 Refinery option for handling steam (no power shards)
+
+[%header, cols="2e,>1"]
+|===
+^| Item ^| Amounts
+| Iron Rod | 3 000
+| Reinforced Iron Plate | 2 480
+| Cable | 100
+| Copper Sheet | 10 850
+| Steel Pipe | 4 800
+| Encased Industrial Beam | 1 675
+| Quickwire | 11 250
+| Rotor | 40
+| Motor | 1 975
+| Modular Frame | 300
+| Heavy Modular Frame | 2 625
+| Computer | 675
+| Circuit Board | 1500
+| Rubber | 3000
+| Plastic | 375
+|===
+
+=== Mod Used
+
+Featured in the screen shots, the items you may not recognize from the base game include:
+
+* Small Refinery
+* Small Awesome Sink
+* Modular Load Balancers
+* Structural Solutions
+* Glass Fluid Buffer
+* Fluid Extras (additional junction types)
