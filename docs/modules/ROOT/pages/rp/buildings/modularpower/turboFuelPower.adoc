@@ -7,7 +7,7 @@ Input required:
 * 240 m³/min Compressed Coal
 * 540 m³/min Crude Oil
 * 225 m³/min Limestone
-* Startup water - a single water extractor could be used
+* Startup water - a single water extractor could be used to charge the Industrial Fluid Buffer to 50% - 75% full.
 
 Byproducts :
 
