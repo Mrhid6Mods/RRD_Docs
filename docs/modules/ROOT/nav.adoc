@@ -19,6 +19,7 @@
 **** xref:rp/buildings/modularpower/MP-Turbines.adoc[Turbines]
 **** xref:rp/buildings/modularpower/MP-Generators.adoc[Generators]
 **** xref:rp/buildings/modularpower/MP-Chimneys.adoc[Chimneys]
+**** xref:rp/buildings/modularpower/turboFuelPower.adoc[Closed Loop Solution Heater Sample] 
 *** xref:rp/buildings/icarus/index.adoc[Icarus]
 ** xref:rp/projects/index.adoc[Projects]
 ** xref:rp/items/index.adoc[Items]
