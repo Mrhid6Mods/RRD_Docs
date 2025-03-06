@@ -9,9 +9,27 @@ Continuous crafting is exactly like how vanilla Satisfactory works, but without 
 The Buildings need the Factory Connection Adapter installed and the desired recipe to be set
 
 == On Demand Crafting
+
 On Demand Crafting will only craft the item(s) when you choose to craft them. 
 
 This requires a few extra devices: Crafting Terminal, Crafting Server, and the correct building with the crafting adapter
+
+=== Crafting Groups
+
+New functionality was added to the Crafting Update that adds crafting groups. These groups allows you to assign any number of Crafting Servers and Atomic Crafters into a group.
+You can then select the group when you start a crafting task.
+
+[IMPORTANT]
+====
+You must make sure the group has at least one crafting server or atomic crafter otherwise the crafting task will not run.
+====
+
+To create a new Crafting Group open the Crafting Terminal then go to Crafting Groups tab.
+
+On the top left there is text field to enter a crafting group name then press the plus button to add the group.
+
+To assign a crafting group to a crafting server or atomic crafter, open the UI for the device and click the settings button in the top right.
+Once assigned use the Multitool to copy and paste the group to the other devices.
 
 [NOTE]
 ====
@@ -20,12 +38,14 @@ The building does not need to have a recipe set inside it the crafting adapter w
 
 On Demand Crafting allows you to auto-craft items sequentially as long as the root items are available and there are enough Crafting Servers available
 I.e. to craft 40 screws from Iron Ingots directly you need a minimum of the following:
+
 * A working network
 * 1 Constructor with a Crafting adapter
 * 1 Crafting Server
 * 1 Item Server
 * 1 drive with 3 partitions for the Iron Ingots, Iron Rods and Screws
 * 10 Iron Ingots available in the drive storage
+
 When you choose to craft the 40 Screws the Crafting Server will first craft the required 10 Iron Rods, then will craft the Screws when it has enough Iron Rods
 the Constructor will automatically be set with the recipe for Iron Rods and then switch to Screws once its finished crafting the rods.
 
