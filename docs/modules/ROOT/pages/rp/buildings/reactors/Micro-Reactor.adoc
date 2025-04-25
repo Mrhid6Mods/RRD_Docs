@@ -17,9 +17,9 @@ The Micro Reactor can be fed with the following items:
 | Item   | Consumption rate per minute
 | Nuclear Fuel Rods|0.08 
 | Plutonium|0.04 
-| DT Reactor Cores|0.5
-| Deanorium Reactor Cores|0.125
-| Ficsonium Fuel Rods|2
+| DT Reactor Cores|0.2
+| Deanorium Reactor Cores|0.05
+| Ficsonium Fuel Rods|0.4
 |===
 
 image::https://github.com/Mrhid6Mods/RRD_Docs/raw/master/images/eqn1.png[]
