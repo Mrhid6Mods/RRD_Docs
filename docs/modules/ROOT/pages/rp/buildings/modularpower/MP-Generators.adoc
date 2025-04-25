@@ -22,7 +22,9 @@ Generators are built on the Converter Platform and can only function if attached
 15x High-Speed Connector
 
 |Maximum Power Output
-
+|150MW
+|300MW
+|500MW
 
 |Required RPM
 |10 000
