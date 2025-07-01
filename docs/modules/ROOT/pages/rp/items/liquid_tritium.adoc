@@ -5,7 +5,6 @@ Liquid Tritium is a consumable crafting item used in the production of advanced 
 == Properties and Specifications
 
 - **Type**: Crafting Component
-- **Tier**: 7
 - **Energy Value**: None
 - **Byproducts**: None
 - **Unlocked in**: HUB Tier 7 (Refined Power Research)
@@ -29,7 +28,7 @@ Liquid Tritium is a specialized fluid crafted for use in advanced fuel systems w
   * Limestone: 30 per minute
 | Refinery
 | * Liquid Tritium: 2 per minute
-| HUB Tier 7 (Refined Power Research)
+| HUB Tier 7
 
 |===
 **Crafting Details**:
@@ -53,16 +52,15 @@ Liquid Tritium is a specialized fluid crafted for use in advanced fuel systems w
   * Liquid Deuterium: 4 per minute
 | Blender
 | * D-T Blend: 4 per minute
-| HUB Tier 7 (Refined Power Research)
+| HUB Tier 7
 
 |===
 
 == References and Links
 
-- [Ficsit.app Refined Power Mod Documentation](https://ficsit.app/mod/RefinedPower)
-- [Refined Power GitHub Repository](https://github.com/RefinedPower)
-- [Refined Power Community Discord](https://discord.gg/refinedpower)
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
 
 == Screenshots
-
-image::liquid_tritium_setup.png[Liquid Tritium production line feeding into a Refinery]

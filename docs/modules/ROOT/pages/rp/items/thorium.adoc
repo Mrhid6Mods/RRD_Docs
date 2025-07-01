@@ -1,1 +1,10 @@
-Thorium is a new ore that can be found. It needs to be mined and processed to create Thorium Fuel, which is used in the Modular Reactor. 
+Thorium is a new ore that can be found.
+It needs to be mined and processed to create Thorium Fuel, which is used in the Modular Reactor.
+
+ore purities: impure 150
+
+mk1 impure: 30 mk2 impure: 60 mk3 impure: 120
+
+mk1 normal: 60 mk2 normal: 120 mk3 normal: 240
+
+tier 5

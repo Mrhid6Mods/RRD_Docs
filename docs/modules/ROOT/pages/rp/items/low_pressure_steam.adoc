@@ -1,8 +1,45 @@
-is produced by modular reactor or boiler is trash
-can be dumped into enviroment with a cooling tower, or be converted to water with a refinery
+= Low Pressure Steam
 
--> Steam Water 60 per minute
-Low Pressure Steam 80 per minute
-Refinery
-3 seconds
+Low Pressure Steam is a gas byproduct produced by the Modular Reactor or Boiler, which can be dumped into the environment using a Cooling Tower or converted to Water with a Refinery.
 
+== Properties and Specifications
+
+- **Type**: gas
+- **Energy Value**: Not applicable
+- **Byproducts**: None
+- **Unlocked in**: HUB Tier 5 (Refined Power Research)
+
+== Description
+
+Low Pressure Steam is a byproduct generated during steam or power production in the Modular Reactor or Boiler.
+Considered a waste product, it can be expelled via a link:https://docs.ficsit.app/refinedrd/latest/rp/buildings/modularpower/MP-Chimneys.html[Cooling Tower] or processed into Water for further use. +
+
+== Usage
+
+[cols="1,2,1,2,1",options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| Steam Water
+| * Low Pressure Steam: 80 per minute
+| Refinery
+| * Water: 60 per minute
+| HUB Tier 7 (Refined Power Research) [Pending confirmation]
+
+|===
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://github.com/RefinedPower/RefinedPower[GitHub Repository]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Community Spreadsheet]
+- link:https://ficsit.app/mod/RefinedPower/ModularReactor[Modular Reactor Page]
+
+== Screenshots
+
+image::low_pressure_steam_setup.png[Low Pressure Steam processing line with Cooling Tower or Refinery]

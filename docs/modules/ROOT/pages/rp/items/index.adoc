@@ -1,34 +1,38 @@
-= Items
+= Refined Power Mod Items and Fluids
 
-== Resources:
+This page provides links to documentation for all items and fluids in the Refined Power mod, used for advanced energy production in Satisfactory.
+The items are categorized into Parts, Advanced Parts, and Fluids, as used in various reactors and production chains.
 
-=== Thorium
-=== Deanium (fluid)
+== Parts
 
-== Parts:
-=== Photovoltaic Cells
-=== Carbon Dust
-=== Carbon Mesh
-=== Reinforced Carbon-Carbon
-=== Enriched Thorium
+- link:photovoltaic_cells.adoc[Photovoltaic Cells]
+- link:carbon_dust.adoc[Carbon Dust]
+- link:carbon_mesh.adoc[Carbon Mesh]
+- link:reinforced_carbon_carbon.adoc[Reinforced Carbon-Carbon]
+- link:enriched_thorium.adoc[Enriched Thorium]
 
+== Advanced Parts
 
-== Advanced Parts:
-=== D-T Reactor Core
-=== Coolant Powder
-=== Advanced Reactor Casing
+- link:d-t_reactor_core.adoc[D-T Reactor Core]
+- link:coolant_powder.adoc[Coolant Powder]
+- link:advanced_reactor_casing.adoc[Advanced Reactor Casing]
 
+== Fluids
 
-== Fluids:
+- link:deanorium.adoc[Deanorium]
+- link:concentrated_deanium.adoc[Concentrated Deanium]
+- link:d-t_blend.adoc[D-T Blend]
+- link:liquid_tritium.adoc[Liquid Tritium]
+- link:cloudy_coolant.adoc[Cloudy Coolant]
+- link:reactor_coolant.adoc[Reactor Coolant]
+- link:methane_gas.adoc[Methane Gas]
+- link:high_pressure_steam.adoc[High Pressure Steam]
+- link:low_pressure_steam.adoc[Low Pressure Steam]
+- link:co2.adoc[CO₂]
 
-=== Deanorium
-=== Concentrated Deanium
-=== D-T Blend
-=== Liquid Tritium
-=== Cloudy Coolant
-=== Reactor Coolant
-=== Methane Gas
-=== High Pressure Steam
-=== Low Pressure Steam
-=== CO₂
+== References and Links
 
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]

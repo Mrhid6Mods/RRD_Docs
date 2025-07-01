@@ -5,7 +5,6 @@ The Deanorium is a consumable crafting item used in the production of advanced c
 == Properties and Specifications
 
 - **Type**: Crafting Component
-- **Tier**: 7
 - **Energy Value**: None
 - **Byproducts**: None
 - **Unlocked in**: HUB Tier 7 (Refined Power Research)
@@ -29,7 +28,7 @@ Deanorium is a specialized fluid crafted for use in advanced fuel systems within
   * Enriched Thorium: 20/min
 | Refinery
 | * Deanorium: 8/min
-| HUB Tier 7 (Refined Power Research)
+| HUB Tier 7
 
 |===
 **Crafting Details**:
@@ -53,16 +52,15 @@ Deanorium is a specialized fluid crafted for use in advanced fuel systems within
   * Advanced Reactor Case: 0.5/min
 | Packager
 | * Deanorium Reactor Core: 0.5/min
-| HUB Tier 7 (Refined Power Research)
+| HUB Tier 7
 
 |===
 
 == References and Links
 
-- [Ficsit.app Refined Power Mod Documentation](https://ficsit.app/mod/RefinedPower)
-- [Refined Power GitHub Repository](https://github.com/RefinedPower)
-- [Refined Power Community Discord](https://discord.gg/refinedpower)
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
 
 == Screenshots
-
-image::deanorium_setup.png[Deanorium production line feeding into a Refinery]

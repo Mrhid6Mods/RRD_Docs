@@ -5,7 +5,6 @@ The Cloudy Coolant is a consumable crafting item used in the production of advan
 == Properties and Specifications
 
 - **Type**: Crafting Component
-- **Tier**: 7
 - **Energy Value**: None
 - **Byproducts**: None
 - **Unlocked in**: HUB Tier 7 (Refined Power Research)
@@ -29,7 +28,7 @@ Cloudy Coolant is a specialized fluid crafted for use in advanced cooling system
   * Coolant Powder: 100 per minute
 | Refinery
 | * Cloudy Coolant: 10 per minute
-| HUB Tier 7 (Refined Power Research)
+| HUB Tier 7
 
 |===
 **Crafting Details**:
@@ -52,16 +51,15 @@ Cloudy Coolant is a specialized fluid crafted for use in advanced cooling system
 | * Cloudy Coolant: 3 per minute +
 | Refinery
 | * Reactor Coolant: 9 per minute
-| HUB Tier 7 (Refined Power Research)
+| HUB Tier 7
 
 |===
 
 == References and Links
 
-- [Ficsit.app Refined Power Mod Documentation](https://docs.ficsit.app/refinedrd/latest/)
-- [Refined Power GitHub Repository](https://github.com/RefinedPower)
-- [Refined Power Community Discord](http://bit.ly/refinedpower)
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
 
 == Screenshots
-
-image::cloudy_coolant_setup.png[Cloudy Coolant production line feeding into a Refinery]

@@ -1,0 +1,47 @@
+= Methane Gas
+
+Methane Gas is produced from Toxic Gas, which is extracted from toxic gas pillars.
+It is used in the Solution Heater to generate steam.
+
+== Properties and Specifications
+
+- **Type**: Gas
+- **Energy Value**: Not applicable
+- **Byproducts**: None
+- **Unlocked in**: HUB Tier 6 (Modular Combustion Research)
+
+== Crafting
+
+[cols="1,2,1,2,1",options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| Methane Gas
+| * Toxic Gas: 60 per minute +
+* Carbon Mesh: 60 per minute
+| Refinery
+| * Methane Gas: 30 per minute
+| HUB Tier 6
+
+|===
+
+**Crafting Details**:
+- **Crafting Time**: 2 seconds - **Power Consumption**: XX MW - **Crafting Output Rate**: 30 units/min - **Overclocking**: 100%
+
+== Usage
+
+Methane Gas is used in the Solution Heater to produce steam.
+See the link:https://docs.ficsit.app/refinedrd/latest/rp/buildings/modularpower/MP-Heaters.html[Modular Power Heaters] page for details.
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
+== Screenshots

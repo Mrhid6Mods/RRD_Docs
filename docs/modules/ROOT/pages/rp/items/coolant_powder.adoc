@@ -1,0 +1,69 @@
+= Coolant Powder
+
+The Coolant Powder is a consumable item used as a key component in producing cooling fluids for the Modular Reactor, aiding in heat management for advanced power generation.
+
+== Properties and Specifications
+
+- **Type**: Advanced Component
+- **Tier**: 7 [Pending confirmation]
+- **Energy Value**:
+- **Byproducts**: None
+- **Unlocked in**: HUB Tier 7 (Refined Power Research) [Pending confirmation]
+
+== Description
+
+The Coolant Powder is an advanced material used in the production of Reactor Coolant, essential for maintaining stable operation of the Modular Reactor.
+It plays a critical role in managing heat levels, preventing emergency shutdowns in high-output power setups.
+
+== Crafting
+
+[cols="1,2,1,2,1",options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| Coolant Powder
+| * Limestone: 40 per minute +
+* Coal: 20 per minute +
+* Bauxite: 40 per minute
+| Manufacturer
+| * 5 Coolant Powder 100 per minute
+| HUB Tier 7 (Refined Power Research) [Pending confirmation]
+
+|===
+
+**Crafting Details**:
+- **Crafting Time**: 3 seconds - **Power Consumption**: 55 MW - **Crafting Output Rate**: 100 units/min - **Overclocking**: 100% (adjustable 50%–250%)
+
+== Usage
+
+[cols="1,2,1,2,1",options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| Cloudy Coolant
+| * Water: 5 per minute +
+* Coolant Powder: 100 per minute
+| Refinery
+| * Cloudy Coolant: 10 per minute
+| HUB Tier 7 (Refined Power Research)
+|===
+
+**Tips**:
+- Monitor reactor heat levels via the Reactor Foundation screen and IO Modules to optimize coolant usage and prevent shutdowns.
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
+== Screenshots

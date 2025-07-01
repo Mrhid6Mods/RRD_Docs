@@ -62,8 +62,10 @@ For detailed reactor stats, including all modes and heat dynamics, refer to the 
 
 == References and Links
 
-- [Official Discord](https://discord.com/invite/refined-r-d-729807284103806981)
-- [Community Spreadsheet] https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn)
-== Screenshots
+- link:https://docs.ficsit.app/refinedrd/latest/rp/buildings/modularreactor/index.html[Modular Reactor Page]
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
 
-image::dt_reactor_core_setup.png[DT Reactor Core production line feeding into a Modular Reactor]
+== Screenshots
