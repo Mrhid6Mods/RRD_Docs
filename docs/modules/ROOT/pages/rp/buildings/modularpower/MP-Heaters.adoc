@@ -106,7 +106,7 @@ The coal heater can produce 500{nbsp}℃ heat and can be fed with the following 
 |===
 
 === Solution Heater
-The Solution heater can produce 750{nbsp}℃ heat and can be fed with the following items:
+The Solution heater can produce 750{nbsp}℃ heat if fed with the following items:
 |===
 | Item   | Heat / Cycle | Item consumption rate | CO₂ production rate
 | Biofuel|25|12{nbsp}m³|30{nbsp}m³
@@ -114,6 +114,11 @@ The Solution heater can produce 750{nbsp}℃ heat and can be fed with the follow
 | Turbofuel|35|4{nbsp}m³|45{nbsp}m³
 | Methane |35|6{nbsp}m³|30{nbsp}m³
 | Rocketfuel |35|6{nbsp}m³|30{nbsp}m³
+|===
+
+The Solution heater can produce 1250{nbsp}℃ heat if fed with the following items:
+|===
+| Item   | Heat / Cycle | Item consumption rate | CO₂ production rate
 | Ionised Fuel|50|10{nbsp}m³|75{nbsp}m³
 |===
 

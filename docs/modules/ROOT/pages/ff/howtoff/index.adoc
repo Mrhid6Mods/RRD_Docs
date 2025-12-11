@@ -13,8 +13,8 @@ A Portable Miner can auto-collect this for you.
 == Begin Seed Automation
 You can place a Miner on the node. Node purity dictates the output per minute. 
 A Normal purity node outputs 60 Jars of Dirt per minute from a Mk.1 Miner.
-Each Seed Extractor can process 30 jars per minute and produce 20 Wheat Seeds, 20 Carrot Seeds, 10 Corn
-Seeds, and 10 Potato Seeds per minute (60 seeds total per minute). Send
+Each Seed Extractor can process 60 jars per minute and produce 60 Wheat Seeds, 60 Carrot Seeds, 60 Corn
+Seeds, and 60 Potato Seeds per minute (240 seeds total per minute). Send
 the seeds either to Storage Containers or directly to a Farm. 
 Use Smart or Programmable splitters to organize the seeds.
 

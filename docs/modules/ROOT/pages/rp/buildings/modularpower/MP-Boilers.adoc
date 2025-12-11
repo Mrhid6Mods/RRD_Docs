@@ -19,17 +19,21 @@ Boilers are placed on top of Heaters and will turn Water into High Pressure Stea
 |Water consumption
 |45 m³ @ 500 °C +
 45 m³ @ 750 °C +
+45 m³ @ 1250 °C +
 45 m³ @ 2 000 °C
 |45 m³ @ 500 °C +
 90 m³ @ 750 °C +
+270 m³ @ 1250 °C +
 450 m³ @ 2 000 °C
 
 |Steam output
 |60 m³ @ 500 °C +
 60 m³ @ 750 °C +
+60 m³ @ 1250 °C +
 60 m³ @ 2 000 °C
 |60 m³ @ 500 °C +
 120 m³ @ 750 °C +
+360 m³ @ 1250 °C +
 600 m³ @ 2 000 °C
 |===
 
