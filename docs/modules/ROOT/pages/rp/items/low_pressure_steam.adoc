@@ -36,8 +36,7 @@ Considered a waste product, it can be expelled via a link:https://docs.ficsit.ap
 
 - link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
 - link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
-- link:https://github.com/RefinedPower/RefinedPower[GitHub Repository]
-- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Community Spreadsheet]
-- link:https://ficsit.app/mod/RefinedPower/ModularReactor[Modular Reactor Page]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
 
 == Screenshots

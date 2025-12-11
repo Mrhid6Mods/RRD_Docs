@@ -5,10 +5,10 @@ The items are categorized into Parts, Advanced Parts, and Fluids, as used in var
 
 == Parts
 
-- link:photovoltaic_cells.adoc[Photovoltaic Cells]
-- link:carbon_dust.adoc[Carbon Dust]
-- link:carbon_mesh.adoc[Carbon Mesh]
-- link:reinforced_carbon_carbon.adoc[Reinforced Carbon-Carbon]
+- link:photovoltaic_cells.adoc[Photovoltaic Cells] [Missing Documentation]
+- link:carbon_dust.adoc[Carbon Dust] [Missing Documentation]
+- link:carbon_mesh.adoc[Carbon Mesh] [Missing Documentation]
+- link:reinforced_carbon_carbon.adoc[Reinforced Carbon-Carbon] [Missing Documentation]
 - link:enriched_thorium.adoc[Enriched Thorium]
 
 == Advanced Parts

@@ -63,10 +63,6 @@ Advanced Reactor Casing is a specialized component crafted for use in advanced f
 
 |===
 
-**Usage Crafting Details**:
-- **D-T Reactor Core Crafting Time**: 30 seconds
-- **Deanorium Reactor Core Crafting Time**: 120 seconds
-
 == References and Links
 
 - link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
@@ -75,3 +71,4 @@ Advanced Reactor Casing is a specialized component crafted for use in advanced f
 - link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
 
 == Screenshots
+
