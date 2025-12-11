@@ -5,10 +5,9 @@ The Reactor Coolant is a consumable crafting item used in the Refined Power mod,
 == Properties and Specifications
 
 - **Type**: Crafting Component
-- **Tier**: 7
 - **Energy Value**: None
 - **Byproducts**: None
-- **Unlocked in**: HUB Tier 7 (Refined Power Research)
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
 
 == Description
 

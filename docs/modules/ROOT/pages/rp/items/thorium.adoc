@@ -1,6 +1,8 @@
 Thorium is a new ore that can be found.
 It needs to be mined and processed to create Thorium Fuel, which is used in the Modular Reactor.
 
+unlocked in HUB Tier 7 (Refined Power MK4)
+
 ore purities: impure 150
 
 mk1 impure: 30 mk2 impure: 60 mk3 impure: 120

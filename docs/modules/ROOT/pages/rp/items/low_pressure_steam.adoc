@@ -7,7 +7,7 @@ Low Pressure Steam is a gas byproduct produced by the Modular Reactor or Boiler,
 - **Type**: gas
 - **Energy Value**: Not applicable
 - **Byproducts**: None
-- **Unlocked in**: HUB Tier 5 (Refined Power Research)
+- **Unlocked in**: HUB Tier 5 (Advanced Modular Sizzling)
 
 == Description
 
@@ -41,5 +41,3 @@ Considered a waste product, it can be expelled via a link:https://docs.ficsit.ap
 - link:https://ficsit.app/mod/RefinedPower/ModularReactor[Modular Reactor Page]
 
 == Screenshots
-
-image::low_pressure_steam_setup.png[Low Pressure Steam processing line with Cooling Tower or Refinery]

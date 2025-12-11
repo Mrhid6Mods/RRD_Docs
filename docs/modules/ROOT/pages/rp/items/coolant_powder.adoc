@@ -5,10 +5,9 @@ The Coolant Powder is a consumable item used as a key component in producing coo
 == Properties and Specifications
 
 - **Type**: Advanced Component
-- **Tier**: 7 [Pending confirmation]
 - **Energy Value**:
 - **Byproducts**: None
-- **Unlocked in**: HUB Tier 7 (Refined Power Research) [Pending confirmation]
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
 
 == Description
 

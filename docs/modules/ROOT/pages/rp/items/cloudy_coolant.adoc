@@ -7,7 +7,7 @@ The Cloudy Coolant is a consumable crafting item used in the production of advan
 - **Type**: Crafting Component
 - **Energy Value**: None
 - **Byproducts**: None
-- **Unlocked in**: HUB Tier 7 (Refined Power Research)
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
 
 == Description
 

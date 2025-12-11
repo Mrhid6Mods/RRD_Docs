@@ -5,10 +5,9 @@ The Deanorium Reactor Core is a consumable item used as a high-efficiency fuel s
 == Properties and Specifications
 
 - **Type**: Fuel Component
-- **Tier**: 7
 - **Energy Value**: 1,200,000 MJ per core (at 100% overclocking, 60-second cycle)
 - **Byproducts**: None
-- **Unlocked in**: HUB Tier 7 (Refined Power Research)
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
 
 == Description
 

@@ -1,2 +1,4 @@
 can be fed into the Super HV Turbine to produce power.
 is produced by modular reactors, production rate is written on the reactor site.
+
+tier 7 (Refined Power Mk4)
