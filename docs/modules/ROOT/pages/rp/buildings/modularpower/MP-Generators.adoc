@@ -7,7 +7,7 @@ Generators are built on the Converter Platform and can only function if attached
 == Building Information
 
 |===
-| |LV Generator |MV Generator |HV Generator
+| |LV Generator |MV Generator |HV Generator |Super HV Generator
 
 |Building Cost
 |15x Reinforced Iron Plate +
@@ -20,26 +20,34 @@ Generators are built on the Converter Platform and can only function if attached
 20x Heavy Modular Frame +
 200x Quickwire +
 15x High-Speed Connector
+|30x Quickwire +
+30x Supercomputer +
+10x Adaptive Control Unit
+5x Magnetic Field Generator
 
 |Maximum Power Output
 |150MW
 |300MW
 |500MW
+|10GW
 
 |Required RPM
 |10 000
 |17 000
 |25 000
+|100 000
 |===
+
 
 == Milestones
 
 |===
-| |LV Generator |MV Generator |HV Generator
+| |LV Generator |MV Generator |HV Generator | Super HV Generator
 
 |Available with
 |Tier 3
 |Tier 5
+|Tier 7
 |Tier 7
 
 |Research Cost*
@@ -50,6 +58,10 @@ Generators are built on the Converter Platform and can only function if attached
 |100x Plastic +
 50x Rubber +
 500x Copper Sheets
+|200x Computer +
+100x Heavy Modular Frame +
+50x High-Speed Connector +
+250x Alclad Aluminium Sheets
 |200x Computer +
 100x Heavy Modular Frame +
 50x High-Speed Connector +
