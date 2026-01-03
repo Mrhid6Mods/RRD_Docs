@@ -1,0 +1,66 @@
+= D-T Blend
+
+The D-T Blend is a consumable crafting item used in the production of advanced components for the Refined Power mod, serving as a critical resource for high-energy fuel systems in advanced setups.
+
+== Properties and Specifications
+
+- **Type**: Crafting Component
+- **Energy Value**: None
+- **Byproducts**: None
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
+
+== Description
+
+D-T Blend is a specialized fluid crafted for use in advanced fuel systems within the Refined Power mod. It is essential for producing high-energy fuel components, such as those used in the Modular Reactor. Its production requires precise automation to ensure a steady supply for downstream recipes.
+
+== Crafting
+
+[cols="1,2,1,2,1", options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| D-T Blend
+| * Liquid Deuterium: 4 per minute +
+  * Liquid Tritium: 4 per minute
+| Blender
+| * D-T Blend: 4 per minute
+| HUB Tier 7
+
+|===
+**Crafting Details**:
+- **Crafting Time**: 30 seconds
+- **Power Consumption**: 75 MW
+- **Crafting Output Rate**: 4 units/min
+- **Overclocking**: 100%
+
+== Usage
+
+[cols="1,2,1,2,1", options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| D-T Reactor Core
+| * D-T Blend: 8 per minute +
+  * Advanced Reactor Casing: 2 per minute
+| Packager
+| * D-T Reactor Core: 2 per minute
+| HUB Tier 7
+
+|===
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
+== Screenshots

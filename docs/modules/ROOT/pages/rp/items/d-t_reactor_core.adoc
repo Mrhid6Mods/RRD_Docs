@@ -1,0 +1,71 @@
+= DT Reactor Core
+
+The DT Reactor Core is a consumable item used as a high-efficiency fuel source for the Micro or Modular Reactor, delivering substantial power output for advanced factories.
+
+== Properties and Specifications
+
+- **Type**: Fuel Component
+
+- **Energy Value**: 300 000 MJ per core (at 100% overclocking, 60-second cycle)
+- **Byproducts**: None
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
+
+== Description
+
+The DT Reactor Core is a specialized fuel designed for the Micro or Modular Reactor, optimized for high-output power generation in late-game factories. It provides high energy density, comparable to the Deanorium Reactor Core, and produces no radioactive waste, simplifying logistics. The reactor supports three modes: Power Only, Steam Only, and Power and Steam, with performance varying by overclocking and heat levels.
+
+== Crafting
+
+[cols="1,2,1,2,1", options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| DT Reactor Core
+| * 4 D-T Blend (8/min)
+  * 1 Advanced Reactor Casing (2/min)
+| Packager
+| * 1 DT Reactor Core (2/min)
+| HUB Tier 7 (Refined Power Research)
+
+|===
+**Crafting Details**:
+- **Crafting Time**: 30 seconds
+- **Power Consumption**: 10 MW
+- **Crafting Output Rate**: 2 cores/min
+- **Overclocking**: 100%
+
+== Usage
+
+To use the DT Reactor Core, place it in the fuel slot of a Modular Reactor. The reactor operates in three modes:
+
+- **Power Only Mode**: Outputs power to the grid. At 100% overclocking (with Shield Mk3 and Cooling Rings) it produces 5000MW. At 150% overclocking it generates 7500MW energy.
+- **Steam Only Mode**: Produces Compressed Steam using internal heat. At 100% overclocking it generates xxx m³/min and at 150% overclocking xxx m³/min Compressed Steam.
+- **Power and Steam Mode**: Gives out half of both output values from above. At 100% overclocking, it produces 2500 MW and xxx m³/min of Compressed Steam, At 150%, it produces 3750 MW and xxx m³/min of Compressed Steam.
+
+**Tips**:
+-- Use the DT Reactor Core in conjunction with the Modular Reactor to maximize power output and efficiency. Ensure proper heat management by using Cooling Rings and Shield Mk3 to prevent overheating during high overclocking.
+
+== Advanced Information
+
+The DT Reactor Core’s performance depends on overclocking and heat management:
+
+- **Power Output**: 5000 MW at 100% (up to 12 500 MW at 250%).
+- **Fuel Consumption**: 1 core/min at 100% (2.5 cores/min at 250%).
+- **Heat Management**: Heat gain scales with overclocking. At 100% overclocking with Shield Mk3 and Cooling Rings, heat gain is 66.7% per cycle. At 150% overclocking, heat gain is at 100% per cycle. Overclocking above 150% will eventually cause an Emergency Shutdown due to overheating.
+- **Energy per Core**: 300 000 MJ.
+
+For detailed reactor stats, including all modes and heat dynamics, refer to the pages below.
+
+== References and Links
+
+- link:https://docs.ficsit.app/refinedrd/latest/rp/buildings/modularreactor/index.html[Modular Reactor Page]
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
+== Screenshots

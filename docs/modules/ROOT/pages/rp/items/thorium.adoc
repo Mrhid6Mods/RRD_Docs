@@ -1,0 +1,46 @@
+= Thorium
+
+Thorium is a new ore introduced by the Refined Power mod.
+It is mined and processed into Thorium Fuel for use in the Modular Reactor.
+
+== Properties and Specifications
+
+- **Type**: Ore
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
+
+== Mining Rates (per minute at 100 % clock speed) [Pending Verification]
+
+[cols="^,^,^,^",options="header"]
+|===
+| Miner       | Impure | Normal | Pure
+| Miner Mk.1  | 30     | 60     | 120
+| Miner Mk.2  | 60     | 120    | 240
+| Miner Mk.3  | 120    | 240    | 300
+|===
+
+== Usage
+
+[cols="1,2,1,2,1",options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| Deanorium
+| Enriched Thorium: 20 per minute +
+Concentrated Deanium: 8 per minute
+| Refinery
+| Deanorium: 8 per minute
+| HUB Tier 7
+|===
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://github.com/RefinedPower/RefinedPower[GitHub Repository]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Community Spreadsheet]
+
+== Screenshots

@@ -1,21 +1,38 @@
-= Items
+= Refined Power Mod Items and Fluids
 
-## Resources:
-### Thorium
-### Deanium (fluid)
+This page provides links to documentation for all items and fluids in the Refined Power mod, used for advanced energy production in Satisfactory.
+The items are categorized into Parts, Advanced Parts, and Fluids, as used in various reactors and production chains.
 
-## Parts:
-### Photovoltaic Cells
-### Carbon Dust
-### Carbon Mesh
-### Reinforced Carbon-Carbon
+== Parts
 
-## Fluids:
-### Concentrated Deanium
-### Deanorium
-### Liquid Tritium
-### Liquid Deuterium
-### DT Blend
-### CO₂
-### High Pressure Steam
-### Low Pressure Steam
+- link:photovoltaic_cells.adoc[Photovoltaic Cells] [Missing Documentation]
+- link:carbon_dust.adoc[Carbon Dust] [Missing Documentation]
+- link:carbon_mesh.adoc[Carbon Mesh] [Missing Documentation]
+- link:reinforced_carbon_carbon.adoc[Reinforced Carbon-Carbon] [Missing Documentation]
+- link:enriched_thorium.adoc[Enriched Thorium]
+
+== Advanced Parts
+
+- link:d-t_reactor_core.adoc[D-T Reactor Core]
+- link:coolant_powder.adoc[Coolant Powder]
+- link:advanced_reactor_casing.adoc[Advanced Reactor Casing]
+
+== Fluids
+
+- link:deanorium.adoc[Deanorium]
+- link:concentrated_deanium.adoc[Concentrated Deanium]
+- link:d-t_blend.adoc[D-T Blend]
+- link:liquid_tritium.adoc[Liquid Tritium]
+- link:cloudy_coolant.adoc[Cloudy Coolant]
+- link:reactor_coolant.adoc[Reactor Coolant]
+- link:methane_gas.adoc[Methane Gas]
+- link:high_pressure_steam.adoc[High Pressure Steam]
+- link:low_pressure_steam.adoc[Low Pressure Steam]
+- link:co2.adoc[CO₂]
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]

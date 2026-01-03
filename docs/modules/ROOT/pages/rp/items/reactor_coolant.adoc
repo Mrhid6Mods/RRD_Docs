@@ -1,0 +1,50 @@
+= Reactor Coolant
+
+The Reactor Coolant is a consumable crafting item used in the Refined Power mod, serving as a critical resource for maintaining efficient operation in high-energy setups.
+
+== Properties and Specifications
+
+- **Type**: Crafting Component
+- **Energy Value**: None
+- **Byproducts**: None
+- **Unlocked in**: HUB Tier 7 (Refined Power Mk4)
+
+== Description
+
+Reactor Coolant is a specialized fluid crafted for use in cooling systems within the Refined Power mod. It is essential for maintaining optimal performance in Modular Reactors, preventing overheating and ensuring efficient power output. While it is possible to run a reactor using only water, Reactor Coolant significantly enhances the reactor's efficiency and power output.
+== Crafting
+
+[cols="1,2,1,2,1", options="header"]
+|===
+| Recipe
+| Ingredients
+| Building
+| Products
+| Prerequisites
+
+| Reactor Coolant
+| * Cloudy Coolant: 3 per minute
+| Refinery
+| * Reactor Coolant: 9 per minute
+| HUB Tier 7 (Refined Power Research)
+
+|===
+**Crafting Details**:
+- **Crafting Time**: 20 seconds
+- **Power Consumption**: 30 MW
+- **Crafting Output Rate**: 9 units/min
+- **Overclocking**: 100%
+
+== Usage
+
+Reactor Coolant is used by Modular Reactors to cool down the reactor core, preventing overheating and ensuring efficient operation. Reactor Coolant is essential for maintaining optimal reactor performance and preventing damage to the reactor core.
+ More information about the usage of Reactor Coolant can be found in the https://docs.google.com/spreadsheets/d/1TrSkssBZJDxJJTZV9_78oqAHfHpALZMi[Modular Reactor Production Sheet].
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
+== Screenshots

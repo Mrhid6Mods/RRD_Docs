@@ -1,0 +1,25 @@
+= Toxic Gas
+
+Toxic Gas can be extracted from toxic gas pillars found in the world, used to produce Methane Gas for steam generation in the Solution Heater.
+
+== Properties and Specifications
+
+- **Type**: gas
+- **Energy Value**: Not applicable
+- **Byproducts**: None
+- **Unlocked in**: HUB Tier 6 (Modular Combustion)
+
+== Usage
+
+Toxic Gas is processed to produce Methane Gas, which is used in the Solution Heater to generate steam.
+See the link:methane_gas.adoc[Methane Gas] page for details.
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
+== Screenshots
+

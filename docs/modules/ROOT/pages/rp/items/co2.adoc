@@ -1,0 +1,35 @@
+= CO₂
+
+CO₂ is a waste fluid produced by Modular Reactors and Boilers.
+It cannot be processed further and must be safely disposed of using a CO₂ Chimney.
+
+== Properties and Specifications
+
+- **Type**: gas (waste)
+- **Unlocked in**: HUB Tier 5 (Refined Power MK4)
+- **Energy Value**: None
+- **Byproducts**: None
+
+== Description
+
+CO₂ is a currently unrecyclable byproduct generated during operation of Modular Reactors and Boilers.
+It must be vented to prevent fluid network backups.
+
+== Production
+
+Produced by Modular Reactors and Boilers.
+Exact production rates are displayed on the respective building UIs and in the link:rp/buildings/modularreactor/modularreactor.adoc[Low Pressure Steam] documentation.
+
+== Usage
+
+- **Disposal**: Feed into a CO₂ Chimney for safe atmospheric release.
+- No other uses or recipes exist.
+
+== References and Links
+
+- link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+- link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+- link:https://docs.google.com/spreadsheets/d/1cmECwS9lkdZJtzora6LW7739AwgoEJJn[Modular Reactor Production Sheet]
+- link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
+== Screenshots
