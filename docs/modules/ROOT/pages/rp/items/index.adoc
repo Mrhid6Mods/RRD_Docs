@@ -5,30 +5,30 @@ The items are categorized into Parts, Advanced Parts, and Fluids, as used in var
 
 == Parts
 
-- link:photovoltaic_cells.adoc[Photovoltaic Cells] [Missing Documentation]
-- link:carbon_dust.adoc[Carbon Dust] [Missing Documentation]
-- link:carbon_mesh.adoc[Carbon Mesh] [Missing Documentation]
-- link:reinforced_carbon_carbon.adoc[Reinforced Carbon-Carbon] [Missing Documentation]
-- link:enriched_thorium.adoc[Enriched Thorium]
+- link:photovoltaic_cells.html[Photovoltaic Cells] [Missing Documentation]
+- link:carbon_dust.html[Carbon Dust] [Missing Documentation]
+- link:carbon_mesh.html[Carbon Mesh] [Missing Documentation]
+- link:reinforced_carbon_carbon.html[Reinforced Carbon-Carbon] [Missing Documentation]
+- link:enriched_thorium.html[Enriched Thorium]
 
 == Advanced Parts
 
-- link:d-t_reactor_core.adoc[D-T Reactor Core]
-- link:coolant_powder.adoc[Coolant Powder]
-- link:advanced_reactor_casing.adoc[Advanced Reactor Casing]
+- link:d-t_reactor_core.html[D-T Reactor Core]
+- link:coolant_powder.html[Coolant Powder]
+- link:advanced_reactor_casing.html[Advanced Reactor Casing]
 
 == Fluids
 
-- link:deanorium.adoc[Deanorium]
-- link:concentrated_deanium.adoc[Concentrated Deanium]
-- link:d-t_blend.adoc[D-T Blend]
-- link:liquid_tritium.adoc[Liquid Tritium]
-- link:cloudy_coolant.adoc[Cloudy Coolant]
-- link:reactor_coolant.adoc[Reactor Coolant]
-- link:methane_gas.adoc[Methane Gas]
-- link:high_pressure_steam.adoc[High Pressure Steam]
-- link:low_pressure_steam.adoc[Low Pressure Steam]
-- link:co2.adoc[CO₂]
+- link:deanorium.html[Deanorium]
+- link:concentrated_deanium.html[Concentrated Deanium]
+- link:d-t_blend.html[D-T Blend]
+- link:liquid_tritium.html[Liquid Tritium]
+- link:cloudy_coolant.html[Cloudy Coolant]
+- link:reactor_coolant.html[Reactor Coolant]
+- link:methane_gas.html[Methane Gas]
+- link:high_pressure_steam.html[High Pressure Steam]
+- link:low_pressure_steam.html[Low Pressure Steam]
+- link:co2.html[CO₂]
 
 == References and Links
 
