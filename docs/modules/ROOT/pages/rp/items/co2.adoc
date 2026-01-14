@@ -18,7 +18,7 @@ It must be vented to prevent fluid network backups.
 == Production
 
 Produced by Modular Reactors and Boilers.
-Exact production rates are displayed on the respective building UIs and in the link:rp/buildings/modularreactor/modularreactor.adoc[Low Pressure Steam] documentation.
+Exact production rates are displayed on the respective building UIs and in the link:rp/buildings/modularreactor/modularreactor.html[Low Pressure Steam] documentation.
 
 == Usage
 
