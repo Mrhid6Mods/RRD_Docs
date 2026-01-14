@@ -12,7 +12,7 @@ Toxic Gas can be extracted from toxic gas pillars found in the world, used to pr
 == Usage
 
 Toxic Gas is processed to produce Methane Gas, which is used in the Solution Heater to generate steam.
-See the link:methane_gas.adoc[Methane Gas] page for details.
+See the link:methane_gas.html[Methane Gas] page for details.
 
 == References and Links
 
