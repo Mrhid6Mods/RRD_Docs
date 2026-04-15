@@ -5,30 +5,33 @@ The items are categorized into Parts, Advanced Parts, and Fluids, as used in var
 
 == Parts
 
-- link:photovoltaic_cells.html[Photovoltaic Cells] [Missing Documentation]
-- link:carbon_dust.html[Carbon Dust] [Missing Documentation]
-- link:carbon_mesh.html[Carbon Mesh] [Missing Documentation]
-- link:reinforced_carbon_carbon.html[Reinforced Carbon-Carbon] [Missing Documentation]
-- link:enriched_thorium.html[Enriched Thorium]
+- xref:/rp/items/photovoltaic_cells.adoc[Photovoltaic Cells] [Missing Documentation]
+- xref:/rp/items/carbon_dust.adoc[Carbon Dust] [Missing Documentation]
+- xref:/rp/items/carbon_mesh.adoc[Carbon Mesh] [Missing Documentation]
+- xref:/rp/items/reinforced_carbon_carbon.adoc[Reinforced Carbon-Carbon] [Missing Documentation]
+- xref:/rp/items/enriched_thorium.adoc[Enriched Thorium]
 
 == Advanced Parts
 
-- link:d-t_reactor_core.html[D-T Reactor Core]
-- link:coolant_powder.html[Coolant Powder]
-- link:advanced_reactor_casing.html[Advanced Reactor Casing]
+- xref:/rp/items/d-t_reactor_core.adoc[D-T Reactor Core]
+- xref:/rp/items/coolant_powder.adoc[Coolant Powder]
+- xref:/rp/items/advanced_reactor_casing.adoc[Advanced Reactor Casing]
 
 == Fluids
 
-- link:deanorium.html[Deanorium]
-- link:concentrated_deanium.html[Concentrated Deanium]
-- link:d-t_blend.html[D-T Blend]
-- link:liquid_tritium.html[Liquid Tritium]
-- link:cloudy_coolant.html[Cloudy Coolant]
-- link:reactor_coolant.html[Reactor Coolant]
-- link:methane_gas.html[Methane Gas]
-- link:high_pressure_steam.html[High Pressure Steam]
-- link:low_pressure_steam.html[Low Pressure Steam]
-- link:co2.html[CO₂]
+- xref:/rp/items/deanorium.adoc[Deanorium]
+- xref:/rp/items/concentrated_deanium.adoc[Concentrated Deanium]
+- xref:/rp/items/d-t_blend.adoc[D-T Blend]
+- xref:/rp/items/liquid_tritium.adoc[Liquid Tritium]
+- xref:/rp/items/cloudy_coolant.adoc[Cloudy Coolant]
+- xref:/rp/items/reactor_coolant.adoc[Reactor Coolant]
+
+== Gases
+
+- xref:/rp/items/methane_gas.adoc[Methane Gas]
+- xref:/rp/items/high_pressure_steam.adoc[High Pressure Steam]
+- xref:/rp/items/low_pressure_steam.adoc[Low Pressure Steam]
+- xref:/rp/items/co2.adoc[CO₂]
 
 == References and Links
 

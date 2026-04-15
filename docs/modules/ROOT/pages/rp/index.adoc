@@ -8,7 +8,9 @@ Ficsit pioneers can now have refined power production that can provide a variety
 
 == Multiplayer support:
 
-Refined Power has always had multiplayer support as a high priority for any update and this will not change in the slightest. To make sure that playing with your friends is possible and to have a fun experience! While multiplayer support isn't 100% finished yet, we do hope we can fix these little bugs in the future!
+Refined Power has always had multiplayer support as a high priority for any update, and this will not change in the slightest.
+To make sure that playing with your friends is possible and to have a fun experience!
+While multiplayer support isn't 100% finished yet, we do hope we can fix these little bugs in the future!
 
 image::https://raw.githubusercontent.com/deantendo/community/master/com_mp_yes.png[]
 image::https://raw.githubusercontent.com/deantendo/community/master/ea_yes_exp_yes.png[]
@@ -17,7 +19,7 @@ image::https://raw.githubusercontent.com/deantendo/community/master/ea_yes_exp_y
 
 To avoid confusion in terms of number formats, the following format is used: +
 The .{nbsp}(dot) is used as decimal separator, e.g. in 3.333{nbsp}m³. +
-The _space_ is used as thousands separator, e.g. in 3{nbsp}333{nbsp}m³.
+The _space_ is used as thousand's separator, e.g. in 3{nbsp}333{nbsp}m³.
 
 Consumption and production rates are always given in _unit_/min unless otherwise noted, e.g. 5{nbsp}m³ means 5{nbsp}m³ per Minute.
 

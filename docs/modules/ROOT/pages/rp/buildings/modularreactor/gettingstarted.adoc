@@ -13,7 +13,8 @@ The foundation is the base for the reactor stack, Reactor Support Rings can be a
 
 === Support Ring
 
-The Reactor Support Ring is the brains of the reactor. The Support ring hold information about what is attached to it (Reactor Modules).
+The Reactor Support Ring is the brains of the reactor.
+The Support ring holds information about what is attached to it (Reactor Modules).
 
 === Reactor Chamber Module
 

@@ -1,6 +1,6 @@
-= Project Icarus
+Project Icarus
 
-A new age of power has been developed by the Refined R&D department, allowing heat from concentrated sun rays to boil water into a highly compressed steam.
+A new age of power has been developed by the Refined R&D department, allowing heat from concentrated sun rays to boil water into highly compressed steam.
 
 == Introduction
 
@@ -9,7 +9,7 @@ A new age of power has been developed by the Refined R&D department, allowing he
 Project Icarus is end-game content.
 ====
 
-With the Icarus system you can Repair and maintain damaged Space stations by sending repair kits to them, once rebuilt they will deflect solar energy to the planets surface.
+With the Icarus system you can Repair and maintain damaged Space stations by sending repair kits to them; once rebuilt, they will deflect solar energy to the planet surface.
 
 you can then use that energy to generate Compressed Steam to run the Super HV Turbines.
 
@@ -29,7 +29,7 @@ Once activated, Water can be piped into the building and converted to Compressed
 Compressed Steam can then be piped to the Super HV Turbines.
 
 The building only works in the daytime and will go into standby mode at night.
-It is advised that power storage is used to handle the night time period.
+It is advised that power storage is used to handle the nighttime period.
 
 === Icarus Rail Gun
 

@@ -1,7 +1,9 @@
 = Modular Power Platforms
 
 == Information:
-These buildings are the bases for all Modular Power buildings, and must be placed before anything else. There are currently 3 different variants: Boiler, Converter, and Cooling platforms.
+
+These buildings are the bases for all Modular Power buildings and must be placed before anything else.
+There are currently 3 different variants: Boiler, Converter, and Cooling platforms.
 
 == Building Information
 
@@ -43,5 +45,4 @@ These platforms are used for the Modular Power Turbines & Generators.
 These platforms are used for the Co2 Chimney or Steam Chimney.
 
 === Super Converter Platform
-These are unlocked at Tier 7
-Although these are primarily used for the Super HV turbines and Generators you can put 3 of the normal turbine/generators on one platform.
+These are unlocked at Tier 7 Although these are primarily used for the Super HV turbines and Generators, you can put 3 of the normal turbine/generators on one platform.
