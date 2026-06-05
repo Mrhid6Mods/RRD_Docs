@@ -1,6 +1,6 @@
 = Solar Panels
 
-Solar panels take energy from the sun, therefore power production is variable depending on the time of day. +
+Solar panels take energy from the sun; therefore, power production is variable depending on the time of day. +
 Mk. 1 solar panels will not produce any power during the night.
 
 If the panels are obstructed, they will reduce the power production.

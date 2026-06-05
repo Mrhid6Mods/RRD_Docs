@@ -3,7 +3,9 @@
 == How to Start the reactors
 
 === Reactor Foundation UI
-The first step is to make sure the Reactor Foundation is connected to the power grid with at least 100MW. Make sure its connected to a power pole and **NOT** a power storage.
+
+The first step is to make sure the Reactor Foundation is connected to the power grid with at least 100 MW.
+Make sure its connected to a power pole and **NOT** a power storage.
 
 Open the Reactor Foundation UI in game, you will see 5 slots, each slot represents a reactor in the stack.
 
@@ -16,13 +18,14 @@ image::https://raw.githubusercontent.com/Mrhid6Mods/RRD_Docs/master/images/rp/mo
 ==== Management Tab
 Once that's set you can open the Reactor Support Ring UI in game.
 
-If the reactor is Offline you will see the Reactor Control panel at the bottom of the UI.
+If the reactor is Offline, you will see the Reactor Control panel at the bottom of the UI.
 Click the toggle switches for each Reactor Chamber ( You will hear a locking sound effect for each Reactor Chamber ).
 
 image::https://raw.githubusercontent.com/Mrhid6Mods/RRD_Docs/master/images/rp/modularReactor/Reactor_core_start.png[DistributorSetup,300,300]
 
 Once all the Chambers are locked and are showing a green light above each toggle switch. You can then toggle the Lock All toggle switch.
-You will see the middle light show green when all reactors chambers are locked ( Please see below ).
+You will see the middle light show green when all reactor chambers are locked.
+( Please see below ).
 
 image::https://raw.githubusercontent.com/Mrhid6Mods/RRD_Docs/master/images/rp/modularReactor/Chamber_Locks.png[DistributorSetup,300,300]
 
@@ -66,7 +69,7 @@ You can now switch back to the Management Tab.
 Once all three lights are green, you can now press and hold the Prime Charge button.
 
 This will Charge the reactor indicated by the gauge on the right under the big red button.
-When the gauge is in the green section the light to the right of the Prime Charge button will be green.
+When the gauge is in the green section, the light to the right of the Prime Charge button will be green.
 
 Once all lights are green you're ready to press the Big Red Charge Release button.
 

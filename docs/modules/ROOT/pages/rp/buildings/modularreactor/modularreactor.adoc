@@ -4,7 +4,7 @@
 There are 3 possible modes for the Reactor to operate in.
 In all modes there is a *spin up time* starting the reactor and changing the reactor clock setting
 
-Overclocking the Reactor above 100% (or 150% with coolant) will result in the reactor gaining heat , reaching the max temperature will cause the reactor to trigger an emergency shutdown
+Overclocking the Reactor above 100% (or 150% with coolant) will result in the reactor gaining heat, reaching the max temperature will cause the reactor to trigger an emergency shutdown
 Underclocking the reactor will cause it to loose heat.
 
 [NOTE]
@@ -17,7 +17,8 @@ You can see the current Reactor Heat in the Reactor Foundation screen, you can s
 These stats are with shielding MK. 3 rings and Reactor Cooling rings with coolant
 
 === Power only
-In power only mode the reactor will only output power to the power grid
+
+In power-only mode the reactor will only output power to the power grid
 
 ==== Reactor Stats
 
@@ -124,7 +125,8 @@ In power only mode the reactor will only output power to the power grid
 |===
 
 === Steam only
-In Steam Mode the Reactor using its internal heat to convert water into Compressed Steam to use in the Super HV Turbine
+
+In Steam Mode the Reactor uses its internal heat to convert water into Compressed Steam to use in the Super HV Turbine
 
 ==== Reactor Stats
 
@@ -156,7 +158,7 @@ The reactor clock set to 150% will maintain the current heat level inside the re
 
 [NOTE]
 ====
-These are very close values taken at the around start of the cycle, and will vary due to being heat dependant and the fluctuations in the reactors internal heat.
+These are very close values taken at the around start of the cycle, and will vary due to being heat-dependent and the fluctuations in the reactors internal heat.
 ====
 
 === Power and Steam

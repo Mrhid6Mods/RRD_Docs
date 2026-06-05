@@ -7,7 +7,7 @@ Input required:
 * 240 m³/min Compressed Coal
 * 540 m³/min Crude Oil
 * 225 m³/min Limestone
-* Startup water - a single water extractor could be used to charge the Industrial Fluid Buffer to 50% - 75% full.
+* Startup water – a single water extractor could be used to charge the Industrial Fluid Buffer to 50% - 75% full.
 
 Byproducts :
 
@@ -51,7 +51,7 @@ You will need to produce 300 m³/min of Turbo Fuel, achievable with 9.6 Assemble
 | Power | 15 MW | 142.6 MW
 |===
 
-Next, obtain 540 m³/min of crude oil - in my example that's 2 extractors running @150%, one on a Pure node, the other on a Normal node.
+Next, get 540 m³/min of crude oil – in my example that's 2 extractors running @150%, one on a Pure node, the other on a Normal node.
 
 * 9 Refineries @ 100% with the "Fuel" recipe
 * 16 Refineries @ 100% with the "Turbo Fuel" recipe
@@ -280,7 +280,7 @@ This table assumes the use of the 7.5 Refinery option for handling steam (no pow
 
 === Mod Used
 
-Featured in the screen shots, the items you may not recognize from the base game include:
+Featured in the screenshots, the items you may not recognize from the base game include:
 
 * Small Refinery
 * Small Awesome Sink

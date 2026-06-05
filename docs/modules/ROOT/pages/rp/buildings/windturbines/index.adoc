@@ -60,4 +60,4 @@ If you don't like the fluctuation of the power output, you can disable that in t
 50x Heavy Modular Frame
 |===
 
-*{sp}Advice: Placing both turbines on the center of their foundations is slightly too close.
+*{sp}Advice: Placing both turbines in the center of their foundations is slightly too close.
