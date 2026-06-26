@@ -39,7 +39,7 @@ They have to be placed on Converter Platforms.
 (Low Pressure)
 |60 m³
 |120 m³
-|450 m³
+|300 m³
 
 |===
 
