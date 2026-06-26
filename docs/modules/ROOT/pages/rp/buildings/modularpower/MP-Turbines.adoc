@@ -21,7 +21,10 @@ They have to be placed on Converter Platforms.
 |6x Heavy Modular Frame +
 10x Motor +
 4x Computer
-|
+|10x Fused Modular Frame +
+20x Supercomputer +
+100x Quickwire +
+10x Turbo Motor
 
 |Maximum RPM
 |10 000
