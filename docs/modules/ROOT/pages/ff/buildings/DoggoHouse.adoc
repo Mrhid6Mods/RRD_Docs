@@ -1,0 +1,79 @@
+= Doggo House
+
+The Doggo House is Ficsit Farming's late-game novelty building: it *houses Lizard Doggos*, keeps them fed, watered, and warm, and, per its in-game description, *extracts resources from them*. It is unlocked at Tier 6 on the "Rancher" milestone and consumes xref:/ff/buildings/CookingHub.adoc[Doggo Chow] and Water.
+
+[NOTE]
+====
+*In-game description* +
+"Used to house up to 16 doggos to be fed, watered, pet and heaten up while also extracting resources from them"
+====
+
+== How it works
+
+* The house holds *up to 16 doggos*. You add a doggo by feeding it a *Full Doggo Cage* on one of its conveyor inputs; the house then keeps that doggo housed.
+* Each doggo must be *fed and watered*:
+** *Food:* Doggo Chow, delivered on a conveyor.
+** *Water:* piped in.
+* Food and water *consumption scale with the number of doggos* — the building recalculates its draw whenever the doggo count changes.
+* It only produces when it has doggos, chow, and water available and there is space for the output.
+
+[WARNING]
+====
+*The exact output ("resources extracted from the doggos") is not predetermined.* The in-game description says the house extracts resources, and the building has an output conveyor, but there is no fixed recipe that spells out a clear output *item* or a *per-doggo output rate*, rather this is based on normal doggo random drops and drop rate. The Doggo Chow and Water consumption *amounts per cycle* are similarly calculated on the fly from the doggo count rather than being fixed values, so they are not stated here. These are *flagged as unverified* rather than guessed.
+====
+
+== Building Information
+
+[%header,cols="1,2"]
+|===
+| | Doggo House
+
+| Build Cost
+| 16x Modular Frame +
+20x Concrete +
+15x Dirt
+
+| Power
+| 16{nbsp}MW
+
+| Doggo capacity
+| Up to 16 doggos
+
+| Inputs
+| Full Doggo Cage (to add a doggo) + Doggo Chow (conveyor) + Water (pipe)
+
+| Output
+| Conveyor output present; exact resource is *unverified* (see warning above)
+|===
+
+[NOTE]
+====
+"Dirt" in the build cost is the Ficsit Farming *Jar of Dirt* item.
+====
+
+== Milestones
+
+[%header,cols="1,2"]
+|===
+| | Doggo House
+
+| Available with
+| HUB Tier 6 — "Rancher" milestone
+|===
+
+The Tier 6 "Rancher" milestone also unlocks the *Doggo Chow* recipe (cooked in the xref:/ff/buildings/CookingHub.adoc[Cooking Hub]) and the Doggo Cage recipe used to catch/house doggos.
+
+== Tips
+
+* *Line up a Doggo Chow supply first.* The house needs a steady feed of xref:/ff/buildings/CookingHub.adoc[Doggo Chow] (35 Yosse Berry + 35 Mycelia + 25{nbsp}m³ Water per batch) plus piped Water before it will keep doggos happy.
+* *More doggos means more consumption.* Food and water draw scale with the number of doggos housed, so grow the population in step with your chow/water throughput.
+
+== See also
+
+* xref:/ff/buildings/CookingHub.adoc[Cooking Hub] — cooks the Doggo Chow this building consumes
+* xref:/ff/buildings/Crops.adoc[Crop reference] — Yosse Berry and Mycelia feed Doggo Chow
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
