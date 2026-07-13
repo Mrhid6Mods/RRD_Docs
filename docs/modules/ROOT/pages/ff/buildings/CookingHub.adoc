@@ -1,0 +1,141 @@
+= Cooking Hub
+
+The Cooking Hub is where crops become *food*. It takes harvested crops (plus Water) and cooks them into bread, muffins, pies, and the xref:/ff/buildings/DoggoHouse.adoc[Doggo House]'s Doggo Chow. It is the "one stop shop" cooking building, unlocked at Tier 4.
+
+[NOTE]
+====
+*In-game description* +
+"Used to cook, Bake, Shake, Boil, Fry, Blend every food and drink to your hearts desire. This is the one stop shop for cooking any food you want"
+====
+
+[NOTE]
+====
+*Water is a fluid* whose recipe amounts are given in litres. `20000` is *20{nbsp}m³* and `25000` is *25{nbsp}m³*.
+====
+
+== How it works
+
+* Feed the Cooking Hub the crop ingredients for a recipe plus *Water*; it cooks the recipe over its cycle time and outputs the finished food.
+* All food recipes below are produced in the Cooking Hub, including Doggo Chow.
+* Wheat is the backbone ingredient — bread, every muffin, and every pie all use Wheat, so a steady Wheat supply feeds the whole menu.
+
+== Food recipes
+
+[%header,cols="2,3,2,1,1"]
+|===
+| Food | Input | Output | Time | Rate
+
+| Bread
+| 15x Wheat + 20{nbsp}m³ Water
+| 1x Bread
+| 15{nbsp}s
+| 4/min
+
+| Banana Bread
+| 10x Wheat + 10x Banana + 20{nbsp}m³ Water
+| 1x Banana Bread
+| 15{nbsp}s
+| 4/min
+
+| Wheat Muffin
+| 100x Wheat + 20{nbsp}m³ Water
+| 2x Wheat Muffin
+| 120{nbsp}s
+| 1/min
+
+| Corn Muffin
+| 60x Wheat + 40x Corn + 20{nbsp}m³ Water
+| 2x Corn Muffin
+| 120{nbsp}s
+| 1/min
+
+| Yosse Muffin
+| 60x Wheat + 40x Yosse Berry + 20{nbsp}m³ Water
+| 2x Yosse Muffin
+| 120{nbsp}s
+| 1/min
+
+| Apple Pie
+| 60x Wheat + 80x Apple + 20{nbsp}m³ Water
+| 1x Apple Pie
+| 120{nbsp}s
+| 0.5/min
+
+| Banana Pie
+| 60x Wheat + 80x Banana + 20{nbsp}m³ Water
+| 1x Banana Pie
+| 120{nbsp}s
+| 0.5/min
+
+| Berry Pie
+| 60x Wheat + 80x Yosse Berry + 20{nbsp}m³ Water
+| 1x Berry Pie
+| 120{nbsp}s
+| 0.5/min
+
+| Pumpkin Pie
+| 60x Wheat + 80x Pumpkin + 20{nbsp}m³ Water
+| 1x Pumpkin Pie
+| 120{nbsp}s
+| 0.5/min
+
+| Doggo Chow
+| 35x Yosse Berry + 35x Mycelia + 25{nbsp}m³ Water
+| 1x Doggo Chow
+| 60{nbsp}s
+| 1/min
+|===
+
+[NOTE]
+====
+*Doggo Chow* is cooked here, not in the Doggo House. It is the food the xref:/ff/buildings/DoggoHouse.adoc[Doggo House] consumes to keep its doggos fed.
+====
+
+== Building Information
+
+[%header,cols="1,2"]
+|===
+| | Cooking Hub
+
+| Build Cost
+| 20x Steel Beam +
+20x Cable +
+12x Encased Industrial Beam
+
+| Power
+| 28{nbsp}MW (consumed while running)
+
+| Inputs
+| Crop ingredients (Wheat, Corn, Apple, Banana, Pumpkin, Yosse Berry, Mycelia…) + Water
+
+| Output
+| Cooked food (bread, muffins, pies) or Doggo Chow
+|===
+
+== Milestones
+
+[%header,cols="1,2"]
+|===
+| | Cooking Hub
+
+| Available with
+| HUB Tier 4 — "Sous Chef" milestone
+|===
+
+The Cooking Hub unlocks at *Tier 4* on the "Sous Chef" milestone, together with Bread, Wheat Muffin, and Corn Muffin. The remaining recipes come later: the *pies* and *Banana Bread* arrive at Tier 6 ("Head Chef"), and *Doggo Chow* unlocks at Tier 6 alongside the xref:/ff/buildings/DoggoHouse.adoc[Doggo House] ("Rancher").
+
+== Tips
+
+* *Wheat first.* Every bread, muffin, and pie needs Wheat — the muffins and pies each cnsume 60–100 Wheat per cycle, so scale Wheat plots before scaling the kitchen.
+* *Pies are ingredient-hungry.* A pie needs 60 Wheat + 80 fruit per 120{nbsp}s cycle; plan for large fertilised fields if you want steady pie output.
+* *Feed the doggos here.* Route some Yosse Berry and Mycelia into a Doggo Chow line if you are running a xref:/ff/buildings/DoggoHouse.adoc[Doggo House].
+
+== See also
+
+* xref:/ff/buildings/Crops.adoc[Crop reference] — the crops that feed these recipes
+* xref:/ff/buildings/DoggoHouse.adoc[Doggo House] — consumes the Doggo Chow cooked here
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
