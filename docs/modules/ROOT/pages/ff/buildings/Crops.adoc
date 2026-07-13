@@ -1,0 +1,124 @@
+= Crop Reference
+
+Every crop in Ficsit Farming is grown from *seeds* in a xref:/ff/buildings/FarmingPlots.adoc[plot], and every crop has the same set of recipes with the same numbers — only the crop, its seed, and which plot type it uses change. This page is the full reference: which crop grows where, and the exact seed-in / crop-out figures for the *normal*, *fertilised*, and *enriched (water)* recipes.
+
+[NOTE]
+====
+*Fluid amounts.* Fertilizer and Water are fluids; their recipe amounts are given in *litres*. A value of `7500` is *7.5{nbsp}m³* and `10000` is *10{nbsp}m³*. 
+====
+
+== Crops and where they grow
+
+Each crop's *normal* recipe is locked to a specific plot type:
+
+[%header,cols="2,2,2,1"]
+|===
+| Crop | Seed | Plot | Crop-recipe unlock
+
+| Wheat | Wheat Seed | Crop Plot | Tier 2
+| Carrot | Carrot Seed | Crop Plot | Tier 2
+| Corn | Corn Seed | Crop Plot | Tier 2
+| Potato | Potato Seed | Crop Plot | Tier 2
+| Cotton | Cotton Seed | Crop Plot | Tier 4
+| Pumpkin | Pumpkin Seed | Crop Plot | Tier 4
+| Yosse Berry | Yosse Seed | Crop Plot | Tier 4
+| Mycelia | Mycelia Seed | Mycelia Plot | Tier 4
+| Apple | Apple Seed | Tree Plot | Tier 6
+| Banana | Banana Seed | Tree Plot | Tier 6
+|===
+
+[NOTE]
+====
+*Tree Plot grows Apple and Banana,* these are the only two crops the Tree Plot can grow. There are no separate wood / leaves / generic "fruit" crops, so despite the "tree products" wording elsewhere, only Apple and Banana are confirmed for the Tree Plot.
+====
+
+== The three recipe types
+
+Every crop above has *three* recipes, and the numbers are *identical for all crops,* only the crop/seed item differs. All produce a xref:/ff/buildings/Composter.adoc[Biomass Capsule] as a by-product.
+
+[%header,cols="2,3,3,1,2"]
+|===
+| Recipe | Input | Output | Time | Throughput
+
+| Normal
+| 4x _Seed_
+| 1x _Crop_ + 1x Biomass Capsule
+| 12{nbsp}s
+| 5 crop/min
+
+| Fertilised
+| 15x _Seed_ + 7{nbsp}500x Fertilizer (7.5{nbsp}m³)
+| 10x _Crop_ + 5x Biomass Capsule
+| 30{nbsp}s
+| 20 crop/min
+
+| Enriched (water)
+| 5x _Seed_ + 10{nbsp}000x Water (10{nbsp}m³)
+| 2x _Crop_ + 2x Biomass Capsule
+| 10{nbsp}s
+| 12 crop/min
+|===
+
+* *Crops do not provide seeds,* you must continually supply new seeds from a xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor]. 
+* *Normal* crops need only seeds.
+* *Fertilised* crops are fed Fertilizer through an xref:/ff/buildings/FarmingModules.adoc[Irrigation Module] and give *4x* the throughput of the normal recipe (20 vs 5 crop/min) for the cost of Fertilizer and more seeds. Fertilised recipes unlock at Tier 6.
+* *Enriched (water)* is fed Water through an Irrigation Module. At 12 crop/min it sits between the normal and fertilised recipes and uses no Fertilizer. Enriched recipes unlock alongside the Irrigation Module at Tier 3 (Wheat/Carrot/Corn/Potato) with the rest following at Tiers 5–6.
+
+[NOTE]
+====
+*Worked example — Wheat (matches the numbers on the xref:/ff/buildings/FarmingPlots.adoc[Plots] page):*
+
+* Normal: 4 Wheat Seed -> 1 Wheat + 1 Biomass Capsule in 12{nbsp}s = *5 Wheat/min*.
+* Fertilised: 15 Wheat Seed + 7.5{nbsp}m³ Fertilizer -> 10 Wheat + 5 Biomass Capsule in 30{nbsp}s = *20 Wheat/min*.
+
+Substitute any crop's own name and seed for identical numbers.
+====
+
+== Per-recipe rates (any crop)
+
+Because the recipes are shared, these input/output rates apply to *every* crop:
+
+[%header,cols="2,2,2,2,2"]
+|===
+| Recipe | Seeds used | Crop made | Biomass Capsule | Fluid used
+
+| Normal
+| 20/min
+| 5/min
+| 5/min
+| —
+
+| Fertilised
+| 30/min
+| 20/min
+| 10/min
+| 15000{nbsp}L/min Fertilizer (15{nbsp}m³)
+
+| Enriched (water)
+| 30/min
+| 12/min
+| 12/min
+| 60000{nbsp}L/min Water (60{nbsp}m³)
+|===
+
+[NOTE]
+====
+*Remember your seeds.* Seeds come from the xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor], which turns *dirt* into seeds, Plan a dirt and seed supply before placing a field.
+====
+
+== Mycelia and Tree plots
+
+* *Mycelia Plot* grows *Mycelia*. Its normal recipe is 4 Mycelia Seed -> 1 Mycelia + 1 Biomass Capsule in 12{nbsp}s, and its fertilised recipe is 15 Mycelia Seed + 7.5{nbsp}m³ Fertilizer -> 10 Mycelia + 5 Biomass Capsule in 30{nbsp}s, the same numbers as every other crop. Mycelia feeds xref:/ff/buildings/DoggoHouse.adoc[Doggo Chow] and pies/muffins in the xref:/ff/buildings/CookingHub.adoc[Cooking Hub].
+* *Tree Plot* grows *Apple* and *Banana* only, using the standard normal/fertilised/enriched numbers above.
+
+== See also
+
+* xref:/ff/buildings/FarmingPlots.adoc[Plots & Modules] — how growing works and the module upgrades
+* xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor] — where seeds come from
+* xref:/ff/buildings/Composter.adoc[Composter] — turns crops into the Fertilizer used by fertilised recipes
+* xref:/ff/buildings/CookingHub.adoc[Cooking Hub] — turns crops into food
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
