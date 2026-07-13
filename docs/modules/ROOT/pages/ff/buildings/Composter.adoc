@@ -1,0 +1,135 @@
+= Composter
+
+The Composter turns *organic material* — crops, leaves, wood, biomass, even alien remains — into *Fertilizer*, the fluid that powers the high-yield *fertilised* crop recipes. It is the supply side of the fertilised farming loop: compost surplus crops into Fertilizer, pipe that Fertilizer back into your xref:/ff/buildings/FarmingPlots.adoc[plots] through an xref:/ff/buildings/FarmingModules.adoc[Irrigation Module], and harvest several times more per cycle.
+
+[NOTE]
+====
+*In-game description* +
+"Used to create fertilizer from organic products such as crops and leaves into fertilizer for a higher crop output"
+====
+
+[NOTE]
+====
+*Fertilizer and Water are fluids* whose recipe amounts are given in litres, but represented in the game user interface as *m³*. `3000` liters is *3{nbsp}m³*.
+====
+
+== How it works
+
+* Feed the Composter an organic input plus *Water*; it runs a *compost recipe* and outputs *Fertilizer*.
+* Most compost recipes share the same base numbers, so unless a recipe is different, each cycle takes *6 seconds* and yields *3000{nbsp}L (3{nbsp}m³) of Fertilizer*. Higher-value inputs (biomass, biofuel, alien remains) raise the output up to 4000–7500{nbsp}L.
+* The Fertilizer output is a fluid, it must be moved by pipe into your plots.
+
+== Representative compost recipes
+
+[%header,cols="2,3,2,1,2"]
+|===
+| Recipe | Input | Fertilizer out | Time | Throughput
+
+| Compost: Wheat (and Carrot, Corn, Potato, Pumpkin, Yosse, Apple, Banana)
+| 2x _Crop_ + 3{nbsp}000x Water
+| 3{nbsp}000x (3{nbsp}m³)
+| 6{nbsp}s
+| 30{nbsp}m³/min
+
+| Compost: Cotton
+| 2x Cotton + 3{nbsp}000x Water
+| 3{nbsp}000x (3{nbsp}m³)
+| 10{nbsp}s
+| 18{nbsp}m³/min
+
+| Compost: Mycelia
+| 4x Mycelia + 3{nbsp}000x Water
+| 3{nbsp}000x (3{nbsp}m³)
+| 6{nbsp}s
+| 30{nbsp}m³/min
+
+| Compost: Leaves
+| 12x Leaves + 3{nbsp}000x Water
+| 3{nbsp}000x (3{nbsp}m³)
+| 6{nbsp}s
+| 30{nbsp}m³/min
+
+| Compost: Wood
+| 6x Wood + 3{nbsp}000x Water
+| 3{nbsp}000x (3{nbsp}m³)
+| 6{nbsp}s
+| 30{nbsp}m³/min
+
+| Compost: Fabric
+| 6x Fabric + 3{nbsp}000x Water
+| 3{nbsp}000x (3{nbsp}m³)
+| 6{nbsp}s
+| 30{nbsp}m³/min
+
+| Compost: Biomass
+| 3x Biomass + 4{nbsp}000x Water
+| 4{nbsp}000x (4{nbsp}m³)
+| 6{nbsp}s
+| 40{nbsp}m³/min
+
+| Compost: Biofuel
+| 4x Solid Biofuel + 4{nbsp}000x Water
+| 4{nbsp}000x (4{nbsp}m³)
+| 6{nbsp}s
+| 40{nbsp}m³/min
+
+| Compost: Alien Carapace
+| 1x Spitter Remains + 7{nbsp}500x Water
+| 7{nbsp}500x (7.5{nbsp}m³)
+| 6{nbsp}s
+| 75{nbsp}m³/min
+|===
+
+[NOTE]
+====
+Most crop compost recipes use the same *6{nbsp}s* cycle and *3{nbsp}000{nbsp}mL* Fertilizer output, changing only the input item. *Compost: Cotton* is the exception, with a longer *10{nbsp}s* cycle. (There are also *Compost: Alien Organs* and other minor variants.)
+====
+
+== Building Information
+
+[%header,cols="1,2"]
+|===
+| | Composter
+
+| Build Cost
+| 12x Modular Frame +
+20x Cable +
+12x Rotor
+
+| Power
+| 10{nbsp}MW (consumed while running)
+
+| Inputs
+| An organic item (crop, leaves, wood, biomass, biofuel, alien remains…) + Water
+
+| Output
+| Fertilizer (fluid)
+|===
+
+== Milestones
+
+[%header,cols="1,2"]
+|===
+| | Composter
+
+| Available with
+| HUB Tier 5 — "Fertiliser Buildings" milestone
+|===
+
+The Composter unlocks at *Tier 5*, on the "Fertiliser Buildings" milestone (which also grants the compost recipes and a couple of alternate biomass recipes). Note this is *before* the fertilised crop recipes themselves, which unlock at Tier 6 — so you can build up a Fertilizer supply first, then switch plots to fertilised recipes.
+
+== Tips
+
+* *Compost your surplus.* Crops you are not eating or extracting seeds from are ideal Composter feedstock — 2 of almost any crop makes 3{nbsp}m³ of Fertilizer.
+* *Leaves and wood work too.* Cheap biomass sources (leaves, wood) compost at the same 3{nbsp}m³/6{nbsp}s rate, so a nearby forest can feed the fertilised loop.
+* *Match Fertilizer supply to plots.* Each fertilised plot draws 15{nbsp}m³/min of Fertilizer, so one crop-compost line (30{nbsp}m³/min) supplies roughly two fertilised plots.
+
+== See also
+
+* xref:/ff/buildings/FarmingPlots.adoc[Plots & Modules] — where Fertilizer is used (fertilised recipes)
+* xref:/ff/buildings/Crops.adoc[Crop reference] — normal vs fertilised numbers per crop
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
