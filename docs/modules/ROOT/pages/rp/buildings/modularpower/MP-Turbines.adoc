@@ -3,16 +3,22 @@
 == Information:
 Modular Power Turbines use High Pressure Steam to produce RPM and convert it to Low Pressure Steam in the process.
 
-RPM is used with the attached Generators you can lower or raise the RPM by discarding any steam and sending it directly out the output connection.
+RPM is used with the attached xref:/rp/buildings/modularpower/MP-Generators.adoc[Generators].
 
-The Low Pressure Steam must be piped out the turbines into a Steam cooling tower or used to create water. If the low pressure steam is not removed from the turbine the RPM will slowly decrease and eventually stop.
+The Low Pressure Steam must be piped out the turbines into a Steam cooling tower or used to create water. If the low pressure steam is not removed from the turbine the RPM will eventually stop.
 
 They have to be placed on Converter Platforms.
+
+[NOTE]
+====
+*In-game descriptions* +
+*Turbine Mk1:* "Can be placed on a converter platform and uses steam to make a turbine spin which turns a generator to produce electrical power."
+====
 
 == Building Information
 
 |===
-| |Mk. 1 |Mk. 2 |Super HV 
+| |Mk. 1 |Mk. 2  
 
 |Building Cost
 |20x Reinforced Iron Plate +
@@ -21,37 +27,37 @@ They have to be placed on Converter Platforms.
 |6x Heavy Modular Frame +
 10x Motor +
 4x Computer
-|
+
 
 |Maximum RPM
 |10 000
 |25 000
-|
+
 
 |Steam Consumption +
 (High Pressure)
 |60 m³
 |120 m³
-|300 m³ (Compressed Steam)
+
 
 
 |Steam Production +
 (Low Pressure)
 |60 m³
 |120 m³
-|450 m³
+
 
 |===
 
 == Milestones
 
 |===
-| |Mk. 1 |Mk. 2 |Super HV 
+| |Mk. 1 |Mk. 2 
 
 |Available with
-|Tier 3
-|Tier 5
-|Tier 7
+|Tier 3: Modular Power Generation
+|Tier 5: Advanced Modular Sizzling
+
 
 |Research Cost*
 |25x Reinforced Iron Plate +
@@ -61,7 +67,47 @@ They have to be placed on Converter Platforms.
 |100x Plastic +
 50x Rubber +
 500x Copper Sheets
-|
+
 |===
 
-*{sp}Within the milestones, multiple Refined Power buildings are unlocked.
+== Tips
+* A turbine needs time to spin up. Expect the attached generator's output to ramp toward its rated MW rather than jumping to it instantly, and to fall off if the steam supply is interrupted.
+* One xref:/rp/buildings/modularpower/MP-Boilers.adoc[Boiler Mk1] at full output (60{nbsp}m³/min steam) exactly feeds one Turbine Mk1 (60{nbsp}m³/min). Mk2 Boilers may produce enough steam to spin multiple turbines depending on your heat source.
+* The output of two Mk1 Boilers can be combined to spin a single Mk2 turbine
+
+= Other Turbines
+
+== Super HV Turbine
+This special turbine is designed for use with the xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor] and xref:/rp/buildings/icarus/index.adoc[Project Icarus] programs. *It does not work with normal Modular Power buildings*.
+
+[NOTE]
+====
+*In-game description* +
+*Super HV Turbine:* "Can handle more steam than a Mk.2 turbine. Can be placed on a Super Conductive platform and uses compressed steam to make a turbine spin which turns a generator to produce electrical power."
+====
+
+== Building Information
+
+
+
+|===
+| Input | Output | Max RPM | Build Cost
+|300 m³ Compressed Steam
+|450 m³ Low Pressure Steam
+|100{nbsp}000
+|10x Fused Modular Frame +
+20x Supercomputer +
+100x Quickwire +
+10x Turbo Motor
+|===
+
+== Milestones
+
+|===
+| Tier | Cost
+|Tier 7: Super Conductivity
+|200x Computer +
+100x Heavy Modular Frame +
+50x High-Speed Connector +
+250x Alclad Aluminium Sheets
+|===
