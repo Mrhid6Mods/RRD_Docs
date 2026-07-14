@@ -21,9 +21,11 @@ Repair kits will need to be sent into space to keep the Icarus Ray deflector in 
 
 You can send the different Repair kits to the deflector in space using an Icarus Rail Gun.
 
+== Buildings:
 
 === Icarus Receiver
-It will become active once the Ray deflector has enough repair kits and is green in the Icarus Receiver UI.
+This building converts the collected energy from the orbital satelite and converts it to heat, which is used to make *Compressed Steam*.
+It will become active once the Ray Deflector has enough repair kits and is green in the Icarus Receiver UI.
 
 Once activated, Water can be piped into the building and converted to Compressed Steam.
 Compressed Steam can then be piped to the Super HV Turbines.
@@ -31,15 +33,103 @@ Compressed Steam can then be piped to the Super HV Turbines.
 The building only works in the daytime and will go into standby mode at night.
 It is advised that power storage is used to handle the nighttime period.
 
+[%header,cols="1,2"]
+|===
+| Property | Value
+
+| Input | Water
+| Output | Compressed Steam
+| Per cycle | 3.5{nbsp}m³ Water in -> 3{nbsp}m³ Compressed Steam out
+| Cycle time | 0.1{nbsp}s
+| Derived rate | ~2100{nbsp}m³/min Water -> ~1800{nbsp}m³/min Compressed Steam
+|===
+
+The Compressed Steam it produces is the same high-grade steam as the xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor], so it feeds the xref:/rp/buildings/modularpower/MP-Turbines.adoc[Super HV Turbine] (the only turbine that accepts Compressed Steam) for power.
+
+*Build cost:*
+
+[%header,cols="1,2"]
+|===
+| Amount | Item
+
+| 50 | Assembly Director System
+| 20 | Magnetic Field Generator
+| 1  | Nuclear Pasta
+|===
+
 === Icarus Rail Gun
 
-The Rail Gun will charge up with power, and once at max stored power, it will be released in a surge of energy to shoot the items into space.
+The Rail Gun keeps the orbital reflector alive by launching *Repair Kits*. It has a charge-up period, once enough power is stored it releases a surge of energy to shoot the repair kits into space.
 
-=== Repair Kits
+[%header,cols="1,2"]
+|===
+| Property | Value
 
-There are four variants of Repair kits, and they all have different recipes.
+| Ammo | Icarus Repair Kit (Mk1–Mk4)
+| Minimum Power draw | 100{nbsp}MW
+| Stored charge | Up to 200000 MW 
+|===
 
-* Icarus Basic Repair Kit
-* Icarus Pioneer Repair Kit
-* Icarus Reinforced Repair Kit
-* Icarus Electrical Repair Kit
+*Build cost:*
+
+[%header,cols="1,2"]
+|===
+| Amount | Item
+
+| 20 | Alclad Aluminum Sheet
+| 10 | Supercomputer
+| 5  | Heat Sink
+| 1  | Thermal Propulsion Rocket
+|===
+
+== Repair Kits:
+
+Repair Kits are the Rail Gun's ammunition. There are four tiers, each crafted in a Manufacturer/Assembler and yielding *2 kits* per craft. Higher tiers use more advanced parts.
+
+[%header,cols="1,3,1"]
+|===
+| Kit | Ingredients | Output
+
+| Repair Kit Mk1: Basic Repair Kit
+| 20x Iron Rod, 30x Screw, 10x Iron Plate
+| 2
+
+| Repair Kit Mk2: Pioneer Repair Kit
+| 15x Reinforced Iron Plate, 10x Modular Frame, 8x Steel Beam
+| 2
+
+| Repair Kit Mk3: Reinforced Repair Kit
+| 10x Steel Pipe, 10x Encased Industrial Beam, 3x Heavy Modular Frame
+| 2
+
+| Repair Kit Mk4: Electrical Repair Kit
+| 50x Cable, 40x Quickwire, 4x Automated Wiring
+| 2
+|===
+
+== Milestone
+
+[%header,cols="1,3"]
+|===
+| Tier | Unlocks
+
+| 8 | Icarus Light Receiver, Icarus Rail Gun (and Repair Kit recipes)
+|===
+
+== Tips
+
+* Keep a steady supply of *Repair Kits* feeding the Rail Gun. If the reflector isn't maintained, the receiver loses its light source.
+* The Rail Gun needs *stored power charge* to fire, so give it a stable grid connection.
+* Pipe the receiver's *Compressed Steam* into a xref:/rp/buildings/modularpower/MP-Turbines.adoc[Super HV Turbine] the same way you would the xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor]'s steam.
+
+== See also
+
+* xref:/rp/buildings/solartower/index.adoc[Solar Power Tower] — the other concentrated-solar steam source
+* xref:/rp/buildings/modularpower/index.adoc[Modular Power] — the turbine chain Icarus steam feeds
+* xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor] — the other end-game Compressed Steam source
+
+== References and Links
+
+* link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+* link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+* link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
