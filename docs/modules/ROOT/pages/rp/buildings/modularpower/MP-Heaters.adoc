@@ -1,11 +1,27 @@
 = Modular Power Heaters
 
 == Information:
-Heaters are used to burn fuel to make heat. They have to be placed on a Boiler Platform. Currently, there are 4 variants: Biomass, Coal, Solution and Nuclear.
+Heaters are used to generate heat utilizing some form of fuel. The heat is used to generate steam in a xref:/rp/buildings/modularpower/MP-Boilers.adoc[Boiler]. Heaters have to be placed on a *Boiler Platform*.
 
-Once the heater reaches 100{nbsp}℃ the attached Boiler will then start producing Steam, the temperature will reach 2{nbsp}000{nbsp}℃ for the nuclear heater. 750{nbsp}℃ for the solution heater and 500{nbsp}℃ for the rest.
+There are four heaters, each accepting a different family of fuel:
 
-The heater will produce CO₂, which needs to be handled by either venting through a chimney or accumulating into Carbon Dust. If the CO₂ is not resolved and fills the heater, it will stop producing heat and slowly cool down.
+* *Biomass Heater:* solid biomass (wood, leaves, biofuel, alien remains…).
+* *Coal Heater:* solid carbon fuels (coal, compacted coal, petroleum coke).
+* *Solution Heater:* liquid/gas carbon fuels, and hot molten-salt.
+* *Nuclear Heater:* fission and fusion fuel rods/cores.
+
+Once the heater reaches 100{nbsp}℃ the attached Boiler will start producing Steam, the temperature can reach 2{nbsp}000{nbsp}℃ for the nuclear heater. 1250{nbsp}℃ for the solution heater and 500{nbsp}℃ for the biomass and coal heaters.
+
+Burning most fuels in heaters will produce CO₂, which needs to be handled by either venting through a chimney or accumulating into Carbon Dust using a Refinery. If the CO₂ is not removed from the system and fills the heater, it will stop producing heat and slowly cool down.
+
+[NOTE]
+====
+*In-game descriptions* +
+*Biomass Heater:* "Used to burn any type of biofuel to be turned into heat and makes a waste product of Carbon Dioxide that needs to be vented out or used in recipes. Can produce up to 500° heat." +
+*Coal Heater:* "Used to burn any type of solid carbon based fuel to be turned into heat and makes a waste product of carbon dioxide that needs to be vented out or used in recipes. Can produce up to 500° heat." +
+*Solution Heater:* "Used to burn any type of liquid carbon-based fuel to be turned into heat and also makes a waste product of carbon dioxide that needs to be vented out or used in recipes. Can produce up to 750° heat." +
+*Nuclear Heater:* "Can burn any type of fission or fusion-based fuel though some By-products may be made depending on the fuel. Can produce up to 2000° heat."
+====
 
 == Building Information
 
@@ -31,7 +47,7 @@ The heater will produce CO₂, which needs to be handled by either venting throu
 |Maximum Heat
 |500 °C
 |500 °C
-|750 °C
+|1250 °C
 |2 000 °C
 
 |Items*
@@ -80,56 +96,59 @@ Biomass, Solid Biofuel, Packaged Biofuel, Flower
 == Variants
 
 === Biomass Heater
-The biomass heater can produce 500{nbsp}℃ heat and can be fed with the following items:
+The biomass heater can be fed with the following items:
 
 |===
-| Item   | Heat / Cycle | Item consumption rate | CO₂ production rate
-| Leaves|0.5|240|30{nbsp}m³
-| Wood|1|36|45{nbsp}m³
-| Mycelia|2|180|45{nbsp}m³
-| Alien Carapace|10|15|30{nbsp}m³
-| Fabric|5|240|30{nbsp}m³
-| Alien Organs|10|15|30{nbsp}m³
-| Biomass|20|20|30{nbsp}m³
-| Solid Biofuel|30|8|30{nbsp}m³
-| Packaged Biofuel|35|4.8|45{nbsp}m³
+| Item   | Heat / Cycle | Item consumption rate per minute | Maximum Heat | Byproduct per minute
+| Leaves|0.5|240|500|30{nbsp}m³ CO₂
+| Wood|1|36|500|45{nbsp}m³ CO₂
+| Mycelia|2|180|500|45{nbsp}m³ CO₂
+| Alien Carapace|10|15|500|30{nbsp}m³ CO₂
+| Fabric|5|240|500|30{nbsp}m³ CO₂
+| Alien Organs|10|15|500|30{nbsp}m³ CO₂
+| Biomass|20|20|500|30{nbsp}m³ CO₂
+| Solid Biofuel|30|8|500|30{nbsp}m³ CO₂
+| Packaged Biofuel|35|4.8|500|45{nbsp}m³ CO₂
 |===
 
 === Coal Heater
-The coal heater can produce 500{nbsp}℃ heat and can be fed with the following items:
+The coal heater can be fed with the following items:
 
 |===
-| Item   | Heat / Cycle | Item consumption rate | CO₂ production rate
-|Coal|10|15|30{nbsp}m³
-|Petroleum Coke|6|25|30{nbsp}m³
-|Compacted Coal|15|7.143|30{nbsp}m³
+| Item   | Heat / Cycle | Item consumption rate per minute| Maximum Heat | Byproduct per minute
+|Coal|10|15|500|30{nbsp}m³ CO₂
+|Petroleum Coke|6|25|500|30{nbsp}m³ CO₂
+|Compacted Coal|15|7.143|500|30{nbsp}m³ CO₂
 |===
 
 === Solution Heater
-The Solution heater can produce 750{nbsp}℃ heat if fed with the following items:
+The Solution heater can fed with the following items:
 |===
-| Item   | Heat / Cycle | Item consumption rate | CO₂ production rate
-| Biofuel|25|12{nbsp}m³|30{nbsp}m³
-| Fuel|30|12{nbsp}m³|30{nbsp}m³
-| Turbofuel|35|4{nbsp}m³|45{nbsp}m³
-| Methane |35|6{nbsp}m³|30{nbsp}m³
-| Rocketfuel |35|6{nbsp}m³|30{nbsp}m³
-|===
-
-The Solution heater can produce 1250{nbsp}℃ heat if fed with the following items:
-|===
-| Item   | Heat / Cycle | Item consumption rate | CO₂ production rate
-| Ionised Fuel|50|10{nbsp}m³|75{nbsp}m³
+| Item   | Heat / Cycle | Item consumption rate per minute| Maximum Heat | Byproduct per minute
+| Liquid Biofuel|25|12{nbsp}m³|750|30{nbsp}m³ CO₂
+| Fuel|30|12{nbsp}m³|750|30{nbsp}m³ CO₂
+| Turbofuel|35|4{nbsp}m³|750|45{nbsp}m³ CO₂
+| Methane |35|6{nbsp}m³|750|30{nbsp}m³ CO₂
+| Rocketfuel |35|6{nbsp}m³|750|30{nbsp}m³ CO₂
+| Hot Molten Salt|50|60{nbsp}m³|750|60{nbsp}m³ Molten Salt
+| Ionised Fuel|50|10{nbsp}m³|1250|75{nbsp}m³ CO₂
 |===
 
 === Nuclear Heater
-The Nuclear heater can produce 2{nbsp}000{nbsp}℃ heat and can be fed with the following items:
+The Nuclear heater can be fed with the following items:
 
 |===
-| Item   | Heat / Cycle | Item consumption rate | Type of waste | Waste production rate
-| Nuclear Fuel Rods|2{nbsp}000|0.125|Nuclear Waste (Vanilla)| 6.25
-| Plutonium|2{nbsp}000|0.0625|Plutonium Waste (Vanilla)| 0.625
-| DT Reactor Core|2{nbsp}500|0.5|Advanced Reactor Cores|0.5
-| Deanorium Reactor Core|2{nbsp}500|0.125|Advanced Reactor Cores|0.125
-| Ficsonium Fuel Rods|2{nbsp}500|0.667|None|0
+| Item   | Heat / Cycle | Item consumption rate per minute | Maximum Heat | Byproduct per minute
+| Nuclear Fuel Rods|2{nbsp}000|0.125|2 000|6.25 Nuclear Waste (Vanilla)
+| Plutonium|2{nbsp}000|0.0625|2 000|0.625 Plutonium Waste (Vanilla)
+| DT Reactor Core|2{nbsp}500|0.5|2 000|0.5 Advanced Reactor Cores
+| Deanorium Reactor Core|2{nbsp}500|0.125|2 000|0.125 Advanced Reactor Cores
+| Ficsonium Fuel Rods|2{nbsp}500|0.667|2 000|None
 |===
+
+== Tips
+
+* Keep every CO2-producing heater piped to a xref:/rp/buildings/modularpower/MP-Chimneys.adoc[Co2 Chimney] (or a CO2-consuming recipe). If the CO2 output backs up, the heater stops producing heat and your boiler cools down.
+* Match the heater to the boiler. A xref:/rp/buildings/modularpower/MP-Boilers.adoc[Boiler Mk1] only needs 500{nbsp}°C, so a Biomass or Coal Heater is plenty. A *Boiler Mk2* is wasted below 500{nbsp}°C, pair it with a Solution or Nuclear Heater to use its higher steam production.
+* Because temperature decays toward 20{nbsp}°C when unfuelled, a starved heater drags its boiler down with it. Size the fuel supply for continuous burning.
+* The Solution Heater's Hot Molten Salt recipe lets a xref:/rp/buildings/solartower/index.adoc[Solar Power Tower] feed the steam system with no fuel at all.
