@@ -1,20 +1,172 @@
 = Modular Reactors
 
 == Introduction:
-Modular Reactor is designed to fit with the Modularity of the existing mod buildings like Modular Power.
+Modular Reactor is designed to fit with the Modularity of the existing mod buildings like Modular Power. It is an end-game power source: a large, multi-part nuclear reactor that you *assemble from separate buildings* rather than placing as a single machine. A fully built reactor burns reactor cores for *heat*, and a central *Support Ring* turns that heat into a huge amount of grid power and, once upgraded, into *Compressed Steam* you can pipe into the xref:/rp/buildings/modularpower/MP-Turbines.adoc[Super HV Turbine].
+
 
 Modular Reactors are the direct replacement to **ARC Reactors**.
 
+== How it works
+
+A Modular Reactor is built up from parts:
+
+* *Reactor Foundation*: the base you build everything else on.
+* *Reactor Chambers*: hold the reactor cores (the fuel). You need *at least 10 chambers* for the reactor to run at all.
+* *Support Ring*: the support structure for the reactor array.
+* *Reactor IO Ring*: the item and fluid interface: *4 input pipes* for Water and Reactor Coolant and *4 output pipes* for Compressed Steam out.
+* *Reactor Cooling*: sheds heat so the reactor can keep running. 
+* *Reactor Shielding*: reduces the reactor's heat build-up letting it run at a higher reaction rate.
+
+== Fuel
+
+The Modular Reactor runs on special *reactor cores*:
+
+* *DT Reactor Core*
+* *Deanorium Reactor Core*
+
+It does not accept base-game cores. The reactor does not however produce nuclear waste. The fuel material is entirely consumed in the reaction leaving only an empty core *casing* that can be reused.
+
+== Heat and Cooling
+[WARNING]
+====
+When in use, the reactor creates *heat*. This heat builds up in the reactor over time. While some heat buildup is desireable if you are looking to produce steam, too much heat will cause an emergency shutdown e-stop that completely shuts down the reactor.
+====
+
+[NOTE]
+====
+Reseach in the MAM is required to properly manage heat. Without this research, your cooling systems will not function.
+====
+
+Heat is controlled by two different technologies, active liquid cooling systems which use *Water* and *Reactor Coolant*, and passive shield systems that radiate heat into the environment around the reactor. The amount of heat buildup in your reactor depends on 2 things: your *Reaction Rate*, and your *Cooling* setup. This combination produces a *Heat Modifier* that determines whether your reactor is gaining heat, maintaining heat or cooling off. 
+
+=== Heat Modifiers - Reactor Temperature Stable at 100%, Reactor Cooling off at values under 100%, Reactor heating up at values over 100%
+|=== 
+|Cooling Setup |100% Reaction Rate |112.5% Reaction Rate |125% Reaction Rate |137.5% Reaction Rate |150% Reaction Rate
+
+|None or Missing MAM Research |142.9% |160.8% |178.6% |196.5% |214.4%
+
+|Liquid Cooling |100% |112.5% |125% |137.5% |150% 
+
+|Shield Mk1 |125% |140.6% |156.3% |171.9% |187.5%
+
+|Shield Mk2 |105.3% |118.5% |131.6% |144.8% |158%
+
+|Shield Mk3 |83.3% |93.7% |104.1% |114.5% |125%
+
+|Liquid + Shield Mk1 |90.9% |102.3% |113.6% |125% |136.4%
+
+|Liquid + Shield Mk2 |80% |90% |100% |110% |120%
+
+|Liquid + Shield Mk3 |66.7% |75% |83.4% |91.7% |100%
+|===
+
+[Note]
+====
+Consumption of *Reactor Coolant* and *Water* is tied to the built up *Heat* level of the reactor. At 0 heat, the reactor uses 3m³ per minute of each. This increases as the tempurature in the reactor increases.
+====
+
+== Power and Steam
+
+The Modular Reactor has two output modes: *Power* and *Steam*. You can select either one exclusively, or choose to output both, at a half-rate for each.
+
+[WARNING]
+====
+*Steam generation currently appears to be tied to frame rate. This is unintentional, and results in players with high framerates generating more steam at lower heat levels than other players. This feature should be considered experimental and subject to change. It is advised that you do not rely on Modular Reactor Steam output for critical power infrastructure.*
+====
+The Power output of the Modular Reactor is directly tied to the *Reaction Rate* setting.
+
+|===
+|Reaction Rate % |Output (with Power Only selected)
+
+|37.5% |1 875 MW
+
+|50% |2 500 MW
+
+|62.5% |3 125 MW
+
+|75% |3 750 MW
+
+|87.5% |4 375 MW
+
+|100% |5 000 MW
+
+|112.5% |5 625 MW
+
+|125% |6 250 MW
+
+|137.5 |6 875 MW
+
+|150% |7 500 MW
+
+|162.5% |8 125 MW
+
+|175% |8 750 MW
+
+|187.5% |9 375 MW
+
+|200% |10 000 MW
+
+|215.5% |10 625 MW
+
+|225% |11 250 MW
+
+|237.5% |11 875 MW
+
+|250% |12 500 MW
+|===
+
+Steam output is not tied to any one setting, but rather to the built up *Heat* level of your reactor. As such it is highly variable and there is no "normal" amount of production. See the Heat and Cooling section above. 
+
+== Build costs
+
+
+[%header,cols="2,3"]
+|===
+| Component | Cost
+
+| Reactor Foundation
+| 150x Encased Industrial Beam, 50x Copper Sheet, 30x Adaptive Control Unit, 20x Alclad Aluminum Sheet
+
+| Reactor Support Ring
+| 50x High-Speed Connector, 50x Aluminum Casing, 20x Computer, 5x Modular Engine
+
+| Reactor Chamber 
+| 20x Encased Industrial Beam, 20x Alclad Aluminum Sheet, 15x Computer, 10x Heavy Modular Frame
+
+| Reactor IO Ring
+| 5x Supercomputer, 10x Fused Modular Frame, 50x Automated Wiring, 5x Magnetic Field Generator
+
+| Reactor Cooling
+| 200x Copper Sheet, 30x Cooling System, 10x Heat Sink
+
+| Reactor Shielding Mk1
+| 100x Steel Beam, 50x Versatile Framework, 30x Heavy Modular Frame
+
+| Reactor Shielding Mk2
+| 100x Quickwire, 30x Encased Industrial Beam, 20x Circuit Board, 10x Computer
+
+| Reactor Shielding Mk3
+| 20x Alclad Aluminum Sheet, 20x AI Limiter, 10x High-Speed Connector, 10x Supercomputer
+|===
+
+== Milestones
+
+The Modular Reactor unlocks across four HUB schematics:
+
+[%header,cols="1,3"]
+|===
+| Tier | Unlocks
+
+| 7: Modular Reactors
+| Reactor Foundation, Reactor Chamber, Support Ring, IO Ring
+
+| 8 Modular Reactors Cooling
+| Reactor Cooling, Reactor Shielding Mk1
+
+| 8 Modular Reactor Better Shielding
+| Reactor Shielding Mk2, Reactor Shielding Mk3
+|===
+
+== Future Plans
 In version 3.1.0 this will be the first iteration of Modular Reactors, future plans are to add different variants to the existing components.
 One future concept is to add a different reactor chamber to allow more power production.
-
-
-== Modules:
-
-* Foundation
-* Support Ring
-* Reactor Chambers
-* Cooling System
-* Heat Shielding
-* IO Ports
- 
