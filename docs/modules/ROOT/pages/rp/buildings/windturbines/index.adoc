@@ -1,4 +1,14 @@
-= Wind Turbines
+= Wind Turbine
+
+Wind Turbines are stand-alone power generators that produce electricity directly from the wind, no fuel, other inputs, or other buildings required. They come in three tiers (Mk1, Mk2, Mk3) that unlock as you progress and produce progressively more power.
+
+Two things determine how much power a wind turbine makes: *how high it is built* and, optionally, *the current wind speed*. They also dislike crowding, build them too close together and they shut each other down.
+
+[NOTE]
+====
+*In-game description (Mk1)* +
+"The power generation ranges between 10MW and 30MW, contingent upon the turbine's height. If multiple turbines are within its vicinity, the output diminishes. [...] Furthermore, it can be connected in a sequence of up to two power lines, allowing for daisy chaining."
+====
 
 == Wind Turbine Mechanics
 Power production is dependent on wind speed and efficiency, which is depending on the height at which the turbine is placed. Maximum efficiency will be reached at around 300 m and above.
@@ -9,7 +19,7 @@ The area is only relevant for turbines of the same type, e.g. a Mk. 1 and a Mk. 
 
 Turbines can be daisy-chained, each allows for two power lines.
 
-If you don't like the fluctuation of the power output, you can disable that in the main menu. **Important:** The turbines will then be limited to half of the maximum output.
+If you don't like the fluctuation of the power output, you can disable that in the *Mod Savegame Settings* menu. **Important:** The turbines will then be limited to half of the maximum output.
 
 == Building Information
 
@@ -28,7 +38,7 @@ If you don't like the fluctuation of the power output, you can disable that in t
 40x Alclad Aluminum Sheets +
 50x Heavy Modular Frames
 
-|Maximum Power Output
+|Default Maximum Power Output
 |30 MW
 |100 MW
 |150 MW
@@ -39,15 +49,59 @@ If you don't like the fluctuation of the power output, you can disable that in t
 |9.5 foundations
 |===
 
+== Wind speed and fluctuation Settings
+[NOTE]
+====
+These settings are found in the *Mod Savegame Settings* menu
+====
+
+Each tier has a game setting *"Use power depends on wind (no constant power output)"*:
+
+* *Off*: the turbine produces a *constant* output based on its height only.
+* *On*: the turbine's height output is multiplied by a *wind-speed factor* that changes over time, so power rises and falls with the wind.
+
+The wind itself is driven by a world-wide *wind subsystem* whose behaviour is controlled by these configurable settings (defaults shown):
+
+[%header,cols="2,1,3"]
+|===
+| Setting | Default | Meaning
+
+| Min wind speed
+| 0.2
+| Lower bound of the fluctuating wind-speed multiplier.
+
+| Max wind speed
+| 1.0
+| Upper bound of the fluctuating wind-speed multiplier.
+
+| Wind speed fluctuations
+| 0.25
+| How strongly/often the wind speed varies.
+
+| Interval for updating the wind speed
+| 60{nbsp}s
+| How often a new wind speed is rolled (15–600{nbsp}s).
+
+| Interval for updating the wind direction
+| 120{nbsp}s
+| How often wind direction changes (visual; 15–600{nbsp}s).
+
+| Power Multiplier (per tier)
+| 1.0
+| Flat multiplier applied to the produced power (0.1–10). Note: the building's on-screen description does not update when this is changed.
+|===
+
+Because these are player-facing config values, a server/save can tune how swingy wind power is. On defaults, a wind-dependent turbine's output drifts between roughly 20% and 100% of its height-based value.
+
 == Milestones
 
 |===
 | |Mk. 1 |Mk. 2 |Mk. 3
 
 |Available with
-|Tier 1
-|Tier 5
-|Tier 7
+|Tier 1: Refined Power Mk1
+|Tier 5: Refined Power Mk2
+|Tier 7: Refined Power Mk3
 
 |Research Cost
 |200x Iron Plate +
@@ -60,4 +114,19 @@ If you don't like the fluctuation of the power output, you can disable that in t
 50x Heavy Modular Frame
 |===
 
-*{sp}Advice: Placing both turbines in the center of their foundations is slightly too close.
+== Tips
+* Placing both turbines in the center of their foundations is slightly too close.
+* *Build high.* A wind turbine on flat ground sits near the bottom of its power range. Placing it on tall pillars, a foundation stack, or a mountain top can multiply its output several times over toward the tier maximum.
+* *Spread them out.* A turbine stops producing the moment another turbine enters its circle, and when two overlap, *both* go to 0{nbsp}MW. Keep each turbine outside its neighbours' circles (roughly 30/56/80{nbsp}m for Mk1/Mk2/Mk3). Cricles can be viewed by pressing _R_.
+* *Wind power is steady only if you want it to be.* With the wind-dependency setting off, output is constant and easy to plan around. With it on, expect it to rise and fall. Pair it with batteries/storage or a baseload generator.
+
+== See also
+
+* xref:/rp/buildings/solarpanels/index.adoc[Solar Panels] — the other fuel-free, weather-linked generator
+* xref:/rp/buildings/waterturbines/index.adoc[Water Turbine] — steady, flow-based renewable power
+
+== References and Links
+
+* link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+* link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+* link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
