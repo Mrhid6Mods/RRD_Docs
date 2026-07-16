@@ -2,13 +2,13 @@
 
 == Building Info
 
-Micro Reactor is capable of generating 1GW of power with 100 Reactor cores. With no waste!
+The *Micro Reactor* is a single-building nuclear generator that outputs *1{nbsp}GW* of power *without producing any waste*! Unlike the multi-part xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor], there is nothing to assemble, you place one building, load it with fuel, and it feeds the grid.
 
-The Micro Reactor only produces power when it needs to.
+In-game description: _"A small micro reactor capiable of 1GW of power!"_
 
 == Building Cost
 
-40 Supercomputers, 80 Alclad Aluminium sheets & 60 A.I. Limiters
+5 Supercomputers, 40 Alclad Aluminium sheets & 30 A.I. Limiters
 
 == Consumption Rates
 The Micro Reactor can be fed with the following items:
