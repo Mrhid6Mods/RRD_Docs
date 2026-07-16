@@ -2,13 +2,12 @@
 
 == Information:
 
-Generators are built on the Converter Platform and can only function if attached to a Turbine. Power output will fluctuate based on the RPM of the attached Turbine, only producing its maximum output once it reaches the required RPM.
+Generators are built on the Converter Platform and can only function if attached to a xref:/rp/buildings/modularpower/MP-Turbines.adoc[Turbine]. Power output will fluctuate based on the RPM of the attached Turbine, only producing its maximum output once it reaches the required RPM.
 
 == Building Information
 
 |===
-| |LV Generator |MV Generator |HV Generator |Super HV Generator
-
+| |LV Generator |MV Generator |HV Generator
 |Building Cost
 |15x Reinforced Iron Plate +
 8x Modular Frame +
@@ -20,37 +19,31 @@ Generators are built on the Converter Platform and can only function if attached
 20x Heavy Modular Frame +
 200x Quickwire +
 15x High-Speed Connector
-|30x Quickwire +
-30x Supercomputer +
-10x Adaptive Control Unit
-5x Magnetic Field Generator
 
 |Maximum Power Output
-|150MW
-|300MW
-|500MW
-|10GW
+|150 MW
+|300 MW
+|500 MW
 
 |Required RPM
 |10 000
 |17 000
 |25 000
-|100 000
 |===
 
 
 == Milestones
 
 |===
-| |LV Generator |MV Generator |HV Generator | Super HV Generator
+| |LV Generator |MV Generator |HV Generator 
 
 |Available with
-|Tier 3
-|Tier 5
-|Tier 7
-|Tier 7
+|Tier 3: Modular Power Generation
+|Tier 5: Advanced Modular Sizzling
+|Tier 7: Modular Parting
 
-|Research Cost*
+
+|Research Cost
 |25x Reinforced Iron Plate +
 25x Rotor +
 200x Iron Rod +
@@ -62,13 +55,7 @@ Generators are built on the Converter Platform and can only function if attached
 100x Heavy Modular Frame +
 50x High-Speed Connector +
 250x Alclad Aluminium Sheets
-|200x Computer +
-100x Heavy Modular Frame +
-50x High-Speed Connector +
-250x Alclad Aluminium Sheets
 |===
-
-*{sp}Within the milestones, multiple Refined Power buildings are unlocked.
 
 == Combinations 
 Generator Combinations with the Turbines running at max RPM
@@ -77,9 +64,9 @@ Generator Combinations with the Turbines running at max RPM
 | |LV Generator |MV Generator |HV Generator
 
 |Mk. 1 turbine
-|150MW
-|181.9MW
-|176
+|150 MW
+|181.9 MW
+|176 MW
 
 |Mk. 2 turbine
 |150 MW
@@ -88,3 +75,35 @@ Generator Combinations with the Turbines running at max RPM
 |===
 
 *{sp}Turbine rpm MK.1 10,000 Mk.2 25,000
+
+== Tips
+* The generator has no external input. It receves its input from the attached turbine. If the generator is not outputing the expected amount of power, look for issues with your *Turbine*.
+* Attaching a MV generator to a Mk1 turbine will cause the generator to underperform. This can still be to your advantage however if you just need to coax a few extra megawatts from an older powerplant. 
+
+= Other Generators
+
+== Information:
+The Super HV Generator is a special generator designed for use with the xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor] and xref:/rp/buildings/icarus/index.adoc[Project Icarus] programs. *It does not work with regular Modular Power systems*.
+
+== Building Information
+
+|===
+| |Building Cost |Maximum Power Output |Required RPM
+|Super HV Generator
+|30x Quickwire +
+30x Supercomputer + 
+10x Adaptive Control Unit +
+5x Magnetic Field Generator
+|15 000 MW
+|100 000
+|===
+
+== Milestones
+|===
+|Tier |Cost
+|Tier 7: Super Conductivity
+|200x Computer +
+100x Heavy Modular Frame +
+50x High-Speed Connector +
+250x Alclad Aluminium Sheets
+|===
