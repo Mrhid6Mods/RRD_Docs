@@ -1,9 +1,8 @@
 = Solar Panels
 
-Solar panels take energy from the sun; therefore, power production is variable depending on the time of day. +
-Mk. 1 solar panels will not produce any power during the night.
+Solar Panels are one of the simplest renewable generators in Refined Power: place one, wire it up, and it produces power from the sun. They come in three tiers plus a set of roof panels. Higher tiers produce more power.
 
-If the panels are obstructed, they will reduce the power production.
+Unlike the xref:/rp/buildings/soalrpanels/solartower.adoc[Solar Power Tower], a Solar Panel generates electricity directly,it does not need xref:/rp/buildings/soalrpanels/solar-power-mirror.adoc[mirrors] or any downstream machine.
 
 |===
 | |Mk. 1 |Mk. 2 |Mk. 3 |Roof
@@ -37,9 +36,9 @@ If the panels are obstructed, they will reduce the power production.
 | |Mk. 1 |Mk. 2 |Mk. 3 | Roof
 
 |Available with
-|Tier 3
-|Tier 5
-|Tier 7
+|Tier 3: Refined Power Mk2
+|Tier 5: Refined Power Solar Panels
+|Tier 7: Refined Power Solar Panels
 |- (Awesome Shop)*
 
 |Research Cost
@@ -57,3 +56,20 @@ If the panels are obstructed, they will reduce the power production.
 |===
 
 *{sp}To unlock it in the Awesome Shop, first you have to unlock Mk. 1 solar panels and roofs.
+
+== Tips
+
+* *Solar is fully passive.* No fuel, no belts, no pipes. Along with wind, it is the lowest-maintenance power in the mod.
+* *Solar production is reduced or completely stopped at night.* If you rely on them, pair them with batteries or an on-demand power source such as biomass burners.
+
+== See also
+
+* xref:/rp/buildings/solarpanels/solartower.adoc[Solar Power Tower] 
+* xref:/rp/buildings/windturbines/index.adoc[Wind Turbine] 
+* xref:/rp/buildings/waterturbines/index.adoc[Water Turbine] 
+
+== References and Links
+
+* link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+* link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+* link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]

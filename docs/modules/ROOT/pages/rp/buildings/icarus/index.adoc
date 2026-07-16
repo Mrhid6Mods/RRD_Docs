@@ -124,7 +124,7 @@ Repair Kits are the Rail Gun's ammunition. There are four tiers, each crafted in
 
 == See also
 
-* xref:/rp/buildings/solartower/index.adoc[Solar Power Tower] — the other concentrated-solar steam source
+* xref:/rp/buildings/solarpanels/solartower.adoc[Solar Power Tower] — the other concentrated-solar steam source
 * xref:/rp/buildings/modularpower/index.adoc[Modular Power] — the turbine chain Icarus steam feeds
 * xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor] — the other end-game Compressed Steam source
 
