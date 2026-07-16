@@ -1,7 +1,13 @@
-= Water Turbines
+= Water Turbine
 
-== Water Turbine Mechanics
-Water turbines can only be placed on dedicated nodes in flowing water like rivers, creeks and waterfalls, with each of those giving a different amount of power.
+The Water Turbine Mk1 is a fuel-free generator that produces steady power from flowing water. Unlike most generators, it is not placed freely: it must be built on a dedicated *Water Turbine Node*, similar to how a Miner must sit on a resource node. These nodes can be found in in flowing water like rivers, creeks and waterfalls. Once placed it generates power continuously.
+
+[NOTE]
+====
+*In-game description* +
+"Mk1 water turbine can only be placed on dedicated nodes placed all around the world that can be found by the scanner! Generates 8, 20, 50MW depending on the node it is placed on. Some sploosh power for your factory with no item input!"
+====
+
 
 == Building Information
 
@@ -16,22 +22,41 @@ Water turbines can only be placed on dedicated nodes in flowing water like river
 |50 MW*
 
 |===
+*{sp}Depending on the node purity, the output is either 8 MW, 20 MW or 50 MW.
 
 == Milestones
 
+[%header,cols="1,1"]
 |===
-| | Mk. 1
+| | Water Turbine Mk1
 
-|Available with
-|Tier 3
+| Available with
+| HUB Tier 3: "Refined Power Mk2" milestone
 
-|Research Cost
-|200x Steel Pipe +
-1 000x Wire +
-50x Steel Beam
+| Research Cost
+| 200x Steel Pipe +
+1{nbsp}000x Wire +
+50x Steel Beam (Steel Plate)
 |===
 
-*{sp}Depending on the node purity, the output is either 8 MW, 20 MW or 50 MW.
+== Tips
 
+* Scan for Water Turbine Nodes early. They give free, constant power with zero running cost and no logistics input.
+* Prioritise *pure* nodes (50{nbsp}MW) where you can. A single pure node rivals a whole small wind farm and never drops off.
+* Because output is steady, Water Turbines make excellent *baseload* to pair with the swingy output of xref:/rp/buildings/windturbines/index.adoc[Wind Turbines] and xref:/rp/buildings/solarpanels/index.adoc[Solar Panels].
+* Not to be confused with the xref:/rp/buildings/waterdams/index.adoc[Water Dam], which is a separate, larger waterway-spanning structure.
+
+== See also
+
+* xref:/rp/buildings/waterdams/index.adoc[Water Dam]
+* xref:/rp/buildings/windturbines/index.adoc[Wind Turbine]
+* xref:/rp/buildings/solarpanels/index.adoc[Solar Panels]
 
 image::https://github.com/mrhid6/sf_mod_refinedpower/raw/master/Images/WaterTurbine.png[]
+
+== References and Links
+
+* link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+* link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+* link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
+
