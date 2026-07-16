@@ -1,0 +1,89 @@
+= Solar Power Mirror
+
+The Solar Power Mirror (heliostat) is the companion building to the xref:/rp/buildings/solarpanels/solartower.adoc[Solar Power Tower]. A mirror reflects sunlight onto a tower to heat it up. Mirrors do not produce power or fluid themselves, they only feed *heat* to a linked tower, which uses that heat to convert fluid.
+
+[NOTE]
+====
+*In-game description* +
+"Use this mirror to direct sunlight to a Solar Tower and heat up the tower. Max Heat: 15"
+====
+
+== How it works
+
+* When placed, a mirror automatically links to the *nearest* xref:/rp/buildings/solarpanels/solartower.adoc[Solar Power Tower] within *50{nbsp}m* and rotates to aim at it.
+* Each linked mirror generates *heat* only during the *day*. The amount scales with how high the sun is: it peaks at *15* around solar noon and falls off toward sunrise and sunset. At night a mirror produces *0* heat.
+* A mirror only contributes heat when it has a clear *line of sight* to its tower.
+* The tower sums the heat of all its linked mirrors (capped at 600) and uses it to run its recipes — see xref:/rp/buildings/solarpanels/solartower.adoc[Solar Power Tower].
+
+== Mechanics
+
+[%header,cols="2,1,3"]
+|===
+| Property | Value | Notes
+
+| Maximum heat per mirror
+| 15
+| Reached at solar noon. Scaled down by time of day; 0 at night.
+
+| Link range to tower
+| 50{nbsp}m
+| A mirror links to the nearest tower within this distance. Beyond it, the mirror cannot be linked.
+
+| Line of sight required
+| Yes
+| A mirror with no clear line of sight to its tower contributes no heat.
+
+|===
+
+[NOTE]
+====
+Each mirror is worth at most 15 heat and a tower's heat caps at 600, so about *40 mirrors* is the useful maximum per tower at solar noon, however using additional mirrors extends the length of time the tower continues producing by providing more heat around sunrise and sunset. See xref:/rp/buildings/solarpanels/solartower.adoc#_heat_mirrors_and_the_two_recipes[Solar Power Tower -> Heat, mirrors, and the two recipes].
+====
+
+== Building Information
+
+[%header,cols="1,1"]
+|===
+| | Solar Power Mirror
+
+| Build Cost
+| 5x Steel Beam (Steel Plate) +
+10x Reinforced Iron Plate +
+5x Modular Frame +
+15x Screw
+
+| Power / fluid output
+| None — mirrors only feed heat to a linked tower.
+|===
+
+== Milestones
+
+[%header,cols="1,1"]
+|===
+| | Solar Power Mirror
+
+| Available with
+| HUB Tier 3 — "Refined Power Mk2" milestone
+
+| Research Cost
+| 200x Steel Pipe +
+1{nbsp}000x Wire +
+50x Steel Beam (Steel Plate)
+|===
+
+Unlocked together with the xref:/rp/buildings/solarpanels/solartower.adoc[Solar Power Tower].
+
+== Tips
+
+* Build mirrors close enough to the tower to stay within the 50{nbsp}m link range, and keep the line of sight clear (no foundations, walls, or other buildings between mirror and tower).
+* Mirrors are daytime-only: production ramps up after sunrise, peaks at midday, and falls off before nightfall.
+
+== See also
+
+* xref:/rp/buildings/solarpanels/solartower.adoc[Solar Power Tower]
+
+== References and Links
+
+* link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+* link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+* link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
