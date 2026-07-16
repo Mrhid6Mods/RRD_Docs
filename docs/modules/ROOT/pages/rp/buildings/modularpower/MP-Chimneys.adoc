@@ -1,7 +1,14 @@
 = Modular Power Chimneys
 
 == Information:
-Modular Power Chimneys are used to vent CO₂ and Steam from heaters and turbines. They have to be placed on a Cooling Platform
+Modular Power Chimneys are used to vent CO₂ and Steam from xref:/rp/buildings/modularpower/MP-Heaters.adoc[heaters] and xref:/rp/buildings/modularpower/MP-Turbines.adoc[turbines]. They have to be placed on a Cooling Platform
+
+[NOTE]
+====
+*In-game descriptions* +
+*Steam Cooling Tower:* "Used to disperse steam into the atmosphere." +
+*Co2 Chimney:* "Used to disperse Co2 into the atmosphere."
+====
 
 == Building Information:
 
@@ -17,7 +24,8 @@ Modular Power Chimneys are used to vent CO₂ and Steam from heaters and turbine
 
 |Fluid
 |Co2
-|Low Pressure Steam
+|Low Pressure Steam +
+High Pressure Steam
 
 |Consumption rate
 |150 m³
@@ -29,26 +37,19 @@ Modular Power Chimneys are used to vent CO₂ and Steam from heaters and turbine
 == Milestones
 
 |===
-| |Co2 Chimney |Steam Cooling Tower
+|Tier |Research Cost
 
-|Available with
-|Tier 3
-|Tier 3
-
-|Research Cost*
-|25x Reinforced Iron Plate +
-25x Rotor +
-200x Iron Rod +
-500x Cable
+|Tier 3: Modular Power Generation 
 |25x Reinforced Iron Plate +
 25x Rotor +
 200x Iron Rod +
 500x Cable
 |===
 
-*{sp}Both buildings are in the same milestone. Within the milestone, multiple Refined Power buildings are unlocked.
 
-[NOTE]
-====
-you can also reuse the steam by refining it back into water if you replace the steam chimney with a refinery with the steam recipe, you can set the clock so you get an exact water in/out ratio of 1:1 Although this does consume more power and space, it allows you to create a closed loop water/steam system for use when you are far away from a water source
-====
+== Tips
+
+* Coolers or another means of disposing of these gasses is essential plumbing, not optional. Every heater that makes CO2 and every turbine that makes Low Pressure Steam needs somewhere for that gas to go, or the whole line stalls.
+* One cooler serves several producers thanks to its high disposal rate.
+* If a heater or turbine mysteriously stops, check its *output* pipe before its input: a full exhaust line is a common cause.
+* Both *Low Pressure Steam* and *CO2* can be processed in a *Refinery* as an alternative to using a cooler. Low Pressure Steam can be converted to Water, and CO2 into Carbon Dust which is useful for making *Steel*.
