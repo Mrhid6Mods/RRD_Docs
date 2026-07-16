@@ -3,8 +3,44 @@
 == Design Concept:
 Ficsit pioneers can have a deconstructed version of any in-game power generator. We have taken each deconstructed element and created a new building for each:
 
-* Heater
-* Boiler
-* Turbine
-* Generator
-* Chimney
+* xref:/rp/buildings/modularpower/MP-Heaters.adoc[Heater]
+* xref:/rp/buildings/modularpower/MP-Boilers.adoc[Boiler]
+* xref:/rp/buildings/modularpower/MP-Turbines.adoc[Turbine]
+* xref:/rp/buildings/modularpower/MP-Generators.adoc[Generator]
+* xref:/rp/buildings/modularpower/MP-Chimneys.adoc[Coolers]
+
+== Placement:
+Modular Power buildings *attach* to *platforms* that connect associated devices together, and use pipes to move resources between buildings on separate platforms.
+
+* A xref:/rp/buildings/modularpower/MP-Heaters.adoc[Heater] sits on a *Boiler Platform* with a xref:/rp/buildings/modularpower/MP-Boilers.adoc[Boiler] attached. The amount of steam a *Boiler* produces is determined by the type of *Boiler* and the amount of *heat* in the *Heater*.
+* A xref:/rp/buildings/modularpower/MP-Turbines.adoc[Turbine] sits on a *Converter Platform* with a xref:/rp/buildings/modularpower/MP-Generators.adoc[Generator] attached. The amount of power the *Generator* produces is determined by the type of *Generator* and the number of RPMs supplied by the *Turbine*
+* A xref:/rp/buildings/modularpower/MP-Chimneys.adoc[Cooler] sits on a *Cooling Platform* and simply vents its associated gas into the atmosphere, removing it from the system.
+
+== Building tiers
+
+Modular Power unlocks across four HUB milestones:
+
+[%header,cols="1,2,3"]
+|===
+| Tier | Milestone | Unlocks
+
+| 3
+| Modular Power Generation
+| Boiler, Converter & Cooling Platforms, xref:/rp/buildings/modularpower/MP-Chimneys.adoc[Co2 Chimney & Steam Cooling Tower], xref:/rp/buildings/modularpower/MP-Heaters.adoc[Biomass & Coal Heaters], xref:/rp/buildings/modularpower/MP-Boilers.adoc[Boiler Mk1], xref:/rp/buildings/modularpower/MP-Turbines.adoc[Turbine Mk1], xref:/rp/buildings/modularpower/MP-Generators.adoc[LV Generator]
+
+| 5
+| Advanced Modular Sizzling
+| xref:/rp/buildings/modularpower/MP-Boilers.adoc[Boiler Mk2], xref:/rp/buildings/modularpower/MP-Turbines.adoc[Turbine Mk2], xref:/rp/buildings/modularpower/MP-Generators.adoc[MV Generator] (plus steam/CO2 canister recipes)
+
+| 6
+| Modular Combustion
+| xref:/rp/buildings/modularpower/MP-Heaters.adoc[Solution Heater] (plus Molten Salt, Methane Gas and Gas Extractor recipes)
+
+| 7
+| Modular Parting
+| xref:/rp/buildings/modularpower/MP-Heaters.adoc[Nuclear Heater], xref:/rp/buildings/modularpower/MP-Generators.adoc[HV Generator]
+|===
+
+== See also
+
+* xref:/rp/buildings/solartower/index.adoc[Solar Power Tower] — a fuel-free source of steam or hot molten salt for this chain
