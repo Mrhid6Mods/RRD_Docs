@@ -5,6 +5,8 @@
 *** xref:rp/buildings/waterturbines/index.adoc[Water Turbines]
 *** xref:rp/buildings/waterdams/index.adoc[Water Dams]
 *** xref:rp/buildings/solarpanels/index.adoc[Solar Panels]
+**** xref:rp/buildings/solarpanels/solartower.adoc[Solar Tower]
+**** xref:/rp/buildings/solarpanels/solar-power-mirror.adoc[Solar Power Mirrors]
 *** xref:rp/buildings/reactors/index.adoc[Reactors]
 **** xref:rp/buildings/reactors/Micro-Reactor.adoc[Micro Reactor]
 **** xref:rp/buildings/modularreactor/index.adoc[Modular Reactors]
