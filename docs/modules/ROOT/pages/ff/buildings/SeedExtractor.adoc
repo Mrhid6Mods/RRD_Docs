@@ -1,0 +1,103 @@
+= Seed Extractor
+
+The Seed Extractor is the building that keeps a farm supplied with *seeds*. Rather than converting a harvested crop directly back into its own seed, it processes *dirt products* and outputs seeds. Despite the in-game description, the seed type that comes out is *not random*, but is based on the type of dirt provided. It is one of the first three farm buildings, unlocked with the very first farming milestone at Tier 2.
+
+[NOTE]
+====
+*In-game description* +
+"Insert dirt product to get turned into seeds. Ficsit R&D can not predict what seed will come out. and it seams seeds have a forum of rarity to the output."
+
+(Spelling reproduced from the game files.)
+====
+
+== How it works
+
+* The extractor takes a *dirt product* as its input. Ficsit Farming has three dirt items, any of which is a valid "dirt product":
++
+[%header,cols="2,3"]
+|===
+| Item | Made from
+
+| Jar of Dirt
+| Mined from a Dirt resource node, or `Limestone -> Jar of Dirt`
+
+| Jar of Peat Soil (fertilised dirt)
+| `Jar of Dirt + Fertilizer`
+
+| Jar of Bog Earth (wet dirt)
+| `Jar of Dirt + Water`
+|===
+* While the building is *powered* and has dirt in its input, it runs and outputs *seeds* to its output inventory / belt. The output seed variety is based on dirt tpe, so a single extractor gradually supplies a mix of seed types rather than one chosen seed.
+* The extractor will only run when *all* of the following are true:
+** it is powered;
+** there is a dirt product in its input;
+** there is enough of that dirt product to consume; and
+** there is room in the output for the produced seeds.
+
+[NOTE]
+====
+*Because the output contains multiple seed types, plan for a buffer/sorter on the output if you need a specific seed type.*
+====
+
+== Building Information
+
+[%header,cols="1,2"]
+|===
+| | Seed Extractor
+
+| Build Cost
+| 20x Modular Frame +
+18x Rotor +
+25x Cable
+
+| Power
+| 25{nbsp}MW (consumed while running)
+
+| Input
+| A dirt product (Jar of Dirt / Peat Soil / Bog Earth)
+
+| Output
+| Seeds 
+|===
+
+[%header,cols="1,2"]
+|===
+| | Seed Production per Minute
+
+| Jar of Dirt x60
+| Carrot Seed x60, Corn Seed x60, Potato Seed x60, Wheat Seed x60
+
+| Jar of Peat Soil x60
+| Apple Seed x60, Banana Seed x60, Yosse Berry Seed x60
+
+| Jar of Bog Earth x60
+| Cotton Seed x30, Mycelia Seed x30, Pumpkin Seed x60, Yosse Berry Seed x60
+|===
+
+== Milestones
+
+[%header,cols="1,2"]
+|===
+| | Seed Extractor
+
+| Available with
+| HUB Tier 2 — "Basic Farmer - Buildings" milestone
+|===
+
+The same Tier 2 milestone unlocks the xref:/ff/buildings/FarmingPlots.adoc[Crop Plot], the xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform Mk1], and the base set of *seed* item unlocks, everything needed to start a first farm.
+
+== Tips
+
+* *Feed it dirt, not crops.* The extractor's input is a dirt product; keep a supply of Jar of Dirt (from a Dirt node or from Limestone) flowing into it.
+* *Expect a seed mix.* Route the seeds through storage or a smart splitter if a plot needs one specific seed type.
+* *It is a Tier 2 building* and comes online with your first plot, so set up a dirt supply early to keep seeds flowing into the xref:/ff/buildings/FarmingPlots.adoc[plots].
+
+== See also
+
+* xref:/ff/buildings/FarmingPlots.adoc[Plots & Modules] — where seeds are grown into crops
+* xref:/ff/buildings/Crops.adoc[Crop reference] — seed-in / crop-out numbers for every crop
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
