@@ -1,10 +1,84 @@
 = Water Dam
 
-== Water Dam Mechanics
-Water turbines can only be placed on dedicated nodes in high volume waterfalls, with each of those giving a different amount of power.
+The Water Dam is a large structure that spans a waterfall to generate power. Where the xref:/rp/buildings/waterturbines/index.adoc[Water Turbine] is a single machine on a small node, the Water Dam is a big buildable that stretches across a gap and produces *Power* and optionally *Water* for free once completed.
 
-You can also enable the Water Output in the GUI to extract water at the cost of the Dams Power Production. there are pipe outputs on the ends of the dams.
+[NOTE]
+====
+*In-game description* +
+"A Mighty Water Dam spanning waterfalls."
+====
+
+== How it works
+
+* Water Dams are placed on a dedicated *Water Dam Node*, a special node found with the *resource scanner*. The node marks a valid waterway where a dam can be built.
+* Building the dam places a series of *sections* (each *10{nbsp}m* wide) that span the waterway. The dam auto-builds its sections to bridge the gap.
+* Once complete, the dam generates power and/or water continuously.
+* Maximum production is set by the number of sections, not counting end peices, of the Water Dam. Each section adds 50MW and 60m³/min of water to the dam's maximum output.
+
+[NOTE]
+====
+Dam nodes are often, but not always, found at the top of waterfalls. +
+This includes some of the waterfalls along the edges of the map!
+====
 
 == Building Information
 
-> TODO: Add Building Information here
+[%header,cols="1,1"]
+|===
+| | Water Dam
+
+| Build Cost
+| 5x Computer +
+5x Heavy Modular Frame +
+10x Rubber +
+50x Concrete
+
+| Placement
+| On a *Water Dam Node* (found with the scanner); auto-builds 10{nbsp}m sections across the waterway
+
+| Power Output
+| 25 to 700 MW 
+
+|Water Output (optional)
+| 60 m³/min to 840 m³/min
+|===
+
+[NOTE]
+====
+Water output from the dams is is optional. If turned on, outputing water costs half of the dam's power output.
+====
+
+== Milestones
+
+[%header,cols="1,1"]
+|===
+| | Water Dam
+
+| Available with
+| HUB Tier 5: "Refined Power Mk2" milestone
+
+| Research Cost
+| 200x Encased Industrial Beam +
+500x Quickwire +
+50x Heavy Modular Frame
+|===
+
+The same Tier 5 milestone also unlocks the xref:/rp/buildings/windturbines/index.adoc[Wind Turbine Mk2], and adds *Water Dam Nodes to your resource scanner* so you can locate valid dam sites like ore nodes.
+
+
+
+== Tips
+
+* You need a *Water Dam Node* to build one. Scan for them the same way you scan for the smaller xref:/rp/buildings/waterturbines/index.adoc[Water Turbine] nodes.
+* Like Water Turbines, dam power is *steady* (no weather dependence), so it suits baseload duty alongside intermittent xref:/rp/buildings/windturbines/index.adoc[wind] and xref:/rp/buildings/solarpanels/index.adoc[solar] power.
+
+== See also
+
+* xref:/rp/buildings/waterturbines/index.adoc[Water Turbine], the smaller hydro generator
+* xref:/rp/buildings/windturbines/index.adoc[Wind Turbine]
+
+== References and Links
+
+* link:https://ficsit.app/mod/RefinedPower[Refined Power Mod on ficsit.app]
+* link:https://discord.com/invite/refined-r-d-729807284103806981[Official Discord]
+* link:https://docs.ficsit.app/refinedrd/latest/rp/index.html[Refined Power Documentation]
