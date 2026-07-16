@@ -1,44 +1,56 @@
 = Farming Platform
 
-The Farming Platform is the base element where plots are placed.
-It can be upgraded with Modules to add more features.
-The Platform can temporarily store inputs and outputs from the plots. (Plots have their own storage like any other Building)
+The Farming Platform is the foundation of every farm. Plots do not stand on their own, they are placed into slots on a platform, which provides the structure, inventory, power connection, and (on the higher tiers) distributes Fertilizer to the plots it holds. Platforms come in three tiers that differ mainly in *how many plots they hold*.
 
-== Farming Platform MK1
-* Power Usage: 10 MW
-* Plot Slots: 1
-* Conveyor Input: 1
-* Conveyor Output: 1
-* Fluid Input: 0
-* Fluid Output: 0
-* Space in Foundations (rounded): 2x3
-* Build Cost:
-** 18x Iron Rod
-** 10x Cable
-** 16x Reinforced Iron Plate
+[NOTE]
+====
+*In-game description (Mk3)* +
+"Farming Platform Mk3 can house 9x Farming Plots (All variants)."
+====
 
-== Farming Platform MK2
-* Power Usage: 30 MW
-* Plot Slots: 4
-* Conveyor Input: 1
-* Conveyor Output: 1
-* Fluid Input: 4
-* Fluid Output: 0
-* Space in Foundations (rounded): 4x5
-* Build Cost:
-** 20x Cable
-** 24x Concrete
-** 20x Modular Frame
+== How it works
 
-== Farming Platform MK3
-* Power Usage: 50 MW
-* Plot Slots: 9
-* Conveyor Input: 1
-* Conveyor Output: 1
-* Fluid Input: 4
-* Fluid Output: 0
-* Space in Foundations (rounded): 6x7
-* Build Cost:
-** 100x Cable
-** 40x Plastic
-** 15x Heavy Modular Frame
+* Place a Farming Platform, then place xref:/ff/buildings/FarmingPlots.adoc[Plots] into its slots. Any plot variant (Crop, Mycelia, Tree) fits any platform.
+* The platform is the plot's *master building*: plots draw power and run through it, and it feeds *seeds* to its plots as well as connecting water and fertilizer to an attached *irrigation module*. It also holds harvested crops, transferring them to an output belt if the harvester module is attached.
+* Higher tiers hold more plots and have additional input connections, allowing for more production at the cost of a slightly larger footprint. 
+
+== Tiers
+
+[%header,cols="1,1,3,1,1"]
+|===
+| Platform | Plot slots | Build Cost | Power Cost | Unlocks at
+
+| Farming Platform Mk1
+| 1
+| 18x Iron Rod + 10x Cable + 16x Reinforced Iron Plate
+| 10 MW
+| Tier 2
+
+| Farming Platform Mk2
+| 4
+| 20x Cable + 24x Concrete + 20x Modular Frame
+| 30 MW
+| Tier 3
+
+| Farming Platform Mk3
+| 9
+| 100x Cable + 40x Plastic + 15x Heavy Modular Frame
+| 50 MW
+| Tier 7
+|===
+
+== Tips
+
+* Mk1 unlocks with the first farming milestone (Tier 2) alongside the xref:/ff/buildings/FarmingPlots.adoc[Crop Plot] and xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor], enough for a starter farm.
+* Upgrade to Mk2 (4 plots) as soon as it is available at Tier 3; it dramatically improves plots-per-footprint and centralizes Fertilizer/power.
+* Mk3 (9 plots) is a late-game (Tier 7) build. Ideal for large fertilized crop fields once you have a steady xref:/ff/buildings/Composter.adoc[Composter] *Fertilizer* supply.
+
+== See also
+
+* xref:/ff/buildings/FarmingPlots.adoc[Plots & Modules]
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
+
