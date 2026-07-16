@@ -1,33 +1,110 @@
 = Farming Plots
 
-Farming Plots need to be placed on a Farming Platform.
-
-[TIP]
-====
-* All Platforms can grow the basic crop recipe.
-* MK2 and MK3 Platforms enables Plots to grow "Enriched" and "Fertilized" crop recipes.
-* You need to provide Water or Fertilizer for non basic crop recipes.
-====
-
-== Crop Plot
-* Carrot Seed
-* Corn Seed
-* Cotton Seed
-* Pumpkin Seed
-* Potato Seed
-* Yosse Berry Seed
-* Wheat Seed
-
-== Mycelia Plot
-* Mycelia Seed
-
-== Tree Plot
-* Apple Seed
-* Banana Seed
+Plots are where crops grow. A plot is placed on a xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform], fed seeds, and left to grow its crop over time. There are three plot types: *Crop*, *Mycelia*, and *Tree*, and three xref:/ff/buildings/FarmingModules.adoc[modules] that upgrade any plot (Irrigation, Greenhouse, Harvester).
 
 [NOTE]
 ====
-All Plots Cost
-* 40x Jar of Dirt
-* 8x Reinforced Iron Plate
+*In-game description (Crop Plot)* +
+"Used to grow all types of crops."
 ====
+
+== How growing works
+
+* A plot must sit on a powered xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform] (its "master" building). It also needs any required xref:/ff/buildings/FarmingModules.adoc[modules] attached for the selected *growth recipe* before it will run.
+* You select what to grow and feed the plot the matching *seeds*. The plot runs that crop's *growth recipe*. All recipes consume seeds and, over the crop's *growth time*, produce the harvested crop plus a *Biomass Capsule*.
+* Every crop has *three* recipes: a *normal* one (seeds only), a *water-enriched* one (seeds + Water) for a modest boost, and a *fertilized* one (seeds + Fertilizer) that grows a much larger batch. Supplying Water or Fertilizer via an xref:/ff/buildings/FarmingModules.adoc[Irrigation Module] lets the plot run the enriched or fertilized recipe. See the full xref:/ff/buildings/Crops.adoc[crop reference] for every crop's numbers.
+* Output can be picked up manually or sent to a belt automatically with a xref:/ff/buildings/FarmingModules.adoc[Harvester Module].
+
+=== Worked example: Wheat
+
+[%header,cols="2,3,2,1"]
+|===
+| Recipe | Input | Output | Time
+
+| Wheat (normal)
+| 4x Wheat Seed
+| 1x Wheat + 1x Biomass Capsule
+| 12{nbsp}s
+
+| Wheat (water-enriched)
+| 5x Wheat Seed + 10{nbsp}000x Water
+| 2x Wheat + 2x Biomass Capsule
+| 10{nbsp}s
+
+| Wheat (fertilized)
+| 15x Wheat Seed + 7{nbsp}500x Fertilizer
+| 10x Wheat + 5x Biomass Capsule
+| 30{nbsp}s
+|===
+
+That works out to *5 Wheat/min* (normal), *12 Wheat/min* (water-enriched), and *20 Wheat/min* (fertilized). The fertilized recipe is roughly *4x* the normal output for the cost of Fertilizer and more seeds. Other crops follow the same pattern with their own numbers (fluid amounts are in millilitres: 10{nbsp}000 = 10{nbsp}m³).
+
+[NOTE]
+====
+*Seeds cannot be grown*, so you need an ongoing seed supply. Seeds are produced by the xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor], which turns *dirt products* into random seeds. Plan a dirt/seed pipeline for your farms.
+====
+
+== Plot types
+
+[%header,cols="2,3,1"]
+|===
+| Plot | Grows | Unlocks at
+
+| Crop Plot
+| Standard crops: Wheat, Corn, Potato, Carrot, Cotton, Pumpkin, Yosse Berry
+| Tier 2
+
+| Mycelia Plot
+| Mycelia
+| Tier 4
+
+| Tree Plot
+| Tree fruit — Apple and Banana (only these are proven in the recipe data)
+| Tier 6
+|===
+
+All three share the same build cost: *40x Dirt + 8x Reinforced Iron Plate*. ("Dirt" is a Ficsit Farming resource.)
+
+== Modules
+
+Plots are upgraded with three snap-on xref:/ff/buildings/FarmingModules.adoc[modules]: *Irrigation* (supplies water/Fertilizer, enabling the enriched and fertilized recipes), *Harvester* (auto-outputs to a belt), and *Greenhouse* (faster growth). See the xref:/ff/buildings/FarmingModules.adoc[Farming Modules] page for their effects, costs, and unlock tiers.
+
+== Building Information
+
+[%header,cols="1,1"]
+|===
+| | Plot (Crop / Mycelia / Tree)
+
+| Build Cost
+| 40x Dirt +
+8x Reinforced Iron Plate
+
+| Placement
+| On a xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform] slot
+
+| Power
+| Required (via the platform's power connection)
+
+| Output
+| Harvested crop + Biomass Capsule (manual, or automatic with a Harvester Module)
+|===
+
+== Tips
+
+* *Fertilize for throughput.* The fertilized recipes yield several times more per cycle; once you have a xref:/ff/buildings/Composter.adoc[Composter] making Fertilizer, pipe it in through an Irrigation Module.
+* *Keep seeds flowing.* Seeds come from the xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor] processing dirt products (not from the crops), so feed it a steady dirt supply to avoid starving your plots.
+* *Automate early.* A Harvester Module turns a plot from a manual-pickup chore into a hands-off producer.
+* *Pack plots onto platforms.* A xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform Mk3] holds 9 plots on one footprint.
+
+== See also
+
+* xref:/ff/buildings/FarmingModules.adoc[Farming Modules] — the plot upgrades
+* xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform]
+* xref:/ff/buildings/Crops.adoc[Crop reference]
+* xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor]
+* xref:/ff/buildings/Composter.adoc[Composter]
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
