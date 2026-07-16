@@ -37,3 +37,66 @@ What this mod will not add:
 * Storage
 * Power Management
 * A Doggo Walking business
+
+== Power sources at a glance
+
+[%header,cols="2,2,1,1,2"]
+|===
+| Source | Output | Fuel/input | Steadiness | Unlocks
+
+| xref:/rp/buildings/solarpanels/index.adoc[Solar]
+| 8–150{nbsp}MW (day), 0–80{nbsp}MW (night)
+| Sunlight
+| Day/night cycle
+| Tier 3 / 5 / 7
+
+| xref:/rp/buildings/windturbines/index.adoc[Wind Turbines]
+| 10–150{nbsp}MW (by height & tier)
+| Wind
+| Optional wind fluctuation
+| Tier 1 / 5 / 7
+
+| xref:/rp/buildings/waterturbines/index.adoc[Water Turbine]
+| 8 / 20 / 50{nbsp}MW (by node purity)
+| Water Turbine Node
+| Steady
+| Tier 3
+
+| xref:/rp/buildings/waterdams/index.adoc[Water Dam]
+| 25 to 700{nbsp}MW (by dam length)
+| Water Dam Node
+| Steady
+| Tier 5
+
+| xref:/rp/buildings/solarpanels/index.adoc[Solar Power Tower]
+| Steam / Hot Molten Salt (feeds a turbine)
+| Sunlight + mirrors
+| Daytime
+| Tier 3
+
+| xref:/rp/buildings/modularpower/index.adoc[Modular Power]
+| Up to 150 / 300 / 500 (per generator)
+| Fuel or heat
+| Steady
+| Tier 3 → 7
+
+| xref:/rp/buildings/reactors/Micro-Reactor.adoc[Micro Reactor]
+| 1{nbsp}GW
+| Nuclear fuel rods / reactor cores
+| Steady
+| Tier 7
+
+| xref:/rp/buildings/modularreactor/index.adoc[Modular Reactor]
+| Up to: +
+12{nbsp}500{nbsp}GW (per ring, time limited) +
+7{nbsp}500{nbsp}MW (per ring steady)
+| Reactor cores + Water + Coolant
+| Steady
+| Tier 7 → 8
+
+| xref:/rp/buildings/icarus/index.adoc[Icarus]
+| Compressed Steam (feeds a Super HV Turbine)
+| Water + Repair Kits
+| Steady (needs maintenance)
+| Tier 8
+|===
