@@ -28,3 +28,81 @@ What this mod will not add:
 * MAM research
 * Vehicles
 * A Cow
+
+== The farm loop:
+
+At its core, Ficsit Farming is a cycle:
+
+[none]
+* *Seeds* -> xref:/ff/buildings/FarmingPlots.adoc[Plot] (grows over time) -> *Crop* (+ Biomass Capsule)
+* *Dirt* -> xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor] -> *random Seeds* (seeds come from processing dirt, not from the crops themselves)
+* Crops feed the xref:/ff/buildings/CookingHub.adoc[Cooking Hub] (-> *food*) and the xref:/ff/buildings/Composter.adoc[Composter] (-> *fertilizer*).
+* *Fertilizer* fed back into a plot unlocks the much higher-yield *fertilized* recipes.
+
+Plots are mounted on a xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform] and can be upgraded with three *modules*: Irrigation (supplies water/fertilizer), Greenhouse (faster growth), and Harvester (automatic output).
+
+== Buildings at a glance:
+
+[%header,cols="2,3,1"]
+|===
+| Building | Role | Unlocks at
+
+| xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform Mk1/2/3]
+| Foundation that houses plots (1 / 4 / 9 plots)
+| Tier 2 / 3 / 7
+
+| xref:/ff/buildings/FarmingPlots.adoc[Crop Plot]
+| Grows all standard crops from seeds
+| Tier 2
+
+| xref:/ff/buildings/FarmingPlots.adoc[Mycelia Plot]
+| Grows Mycelia
+| Tier 4
+
+| xref:/ff/buildings/FarmingPlots.adoc[Tree Plot]
+| Grows tree fruit (Apple, Banana)
+| Tier 6
+
+| xref:/ff/buildings/FarmingModules.adoc[Irrigation Module]
+| Supplies water / fertilizer to a plot
+| Tier 3
+
+| xref:/ff/buildings/FarmingModules.adoc[Greenhouse Module]
+| Speeds up crop growth
+| Tier 4
+
+| xref:/ff/buildings/FarmingModules.adoc[Harvester Module]
+| Automates harvesting (outputs to belt)
+| Tier 3
+
+| xref:/ff/buildings/SeedExtractor.adoc[Seed Extractor]
+| Turns dirt products into random seeds
+| Tier 2
+
+| xref:/ff/buildings/Composter.adoc[Composter]
+| Turns crops/biomass into fertilizer
+| Tier 5
+
+| xref:/ff/buildings/CookingHub.adoc[Cooking Hub]
+| Cooks crops into food (bread, pies, muffins…)
+| Tier 4
+
+| xref:/ff/buildings/DoggoHouse.adoc[Doggo House]
+| Houses a Lizard Doggo; consumes Doggo Chow
+| Tier 6
+|===
+
+The whole system is gated behind the mod's own HUB milestones (labelled by tier), starting at *Tier 2* with the Crop Plot, Farming Platform Mk1, and Seed Extractor, enough to start a basic farm.
+
+== Getting started:
+
+A guide for getting started can be found here: xref:/ff/howtoff/index.adoc[Getting Started]
+
+== See also:
+
+* xref:/ff/buildings/FarmingPlots.adoc[Plots & Modules] the core growing mechanic
+* xref:/ff/buildings/FarmingPlatform.adoc[Farming Platform] the base of it all
+
+== References and Links:
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
