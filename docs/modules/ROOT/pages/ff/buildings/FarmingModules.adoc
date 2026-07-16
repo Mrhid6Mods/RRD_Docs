@@ -1,53 +1,54 @@
 = Farming Modules
 
+Modules snap onto a xref:/ff/buildings/FarmingPlots.adoc[plot] to upgrade it. Each is built separately and placed onto a plot slot. Any module works on any plot type (Crop, Mycelia, Tree).
 
-Modules add additional Features to the Plot.
-Farming Modules can be placed after any plot is placed, but not every plot accepts every module.
-Additionally, some seeds need a specific module to be able to grow.
+There are three: *Irrigation*, *Harvester*, and *Greenhouse*.
 
-== Harvester Module
-Like the name says already, this module harvests a full plot.
-The harvested item will be moved to the Platform Storage.
+== Modules at a glance
 
-[TIP]
-====
-Can be placed on every plot.
-====
+[%header,cols="2,3,2,1,1"]
+|===
+| Module | Effect | Build Cost |Power Needed | Unlocks at
 
-** Power Usage: 10 MW
-** 20x Cable
-** 4x Motor
-** 20x Modular Frame
-** 25x Encased Industrial Beam
+| Irrigation Module
+| Supplies *water or Fertilizer* to the crops. This is what lets a plot run the *water-enriched* and *fertilized* recipes
+| 25x Copper Sheet + 15x Steel Pipe + 10x Cable
+| 5 MW
+| Tier 3
 
-== Irrigation Module
-Sprays given fluid to the seeds.
+| Harvester Module
+| Automates harvesting. Outputs the crop to a belt instead of manual pickup
+| 20x Cable + 15x Rotor + 20x Modular Frame + 25x Steel Beam
+| 10 MW
+| Tier 3
 
-* Mycelia Seeds need this module to grow.
-* Any Enriched or Fertilized Seed need this module to grow.
+| Greenhouse Module
+| Speeds up crop growth
+| 50x Iron Plate + 12x Modular Frame + 30x Silica
+| 5 MW
+| Tier 4
+|===
 
-[TIP]
-====
-Can be placed on every plot.
-====
+A fully-kitted plot typically runs *Irrigation* (for water/Fertilizer) + *Harvester* (for automatic output), with a *Greenhouse* added to cut growth time.
 
-** Power Usage: 5 MW
-** 25x Copper Sheet
-** 15x Steel Pipe
-** 10x Cable
+== How the modules work together
 
-== Greenhouse Module
-Provides better growing conditions for more efficient farms.
-In other words, it reduces the time between production ticks.
+* The *Irrigation Module* is the gateway to higher yields: without it, a plot can only run the *normal* (seeds-only) recipe. Pipe Water in for the water-enriched recipe, or xref:/ff/buildings/Composter.adoc[Fertilizer] in for the *fertilized* recipe (roughly *4x* the output, see the xref:/ff/buildings/Crops.adoc[crop reference]).
+* The *Harvester Module* turns a plot from a manual-pickup chore into a hands-off producer that feeds a belt.
+* The *Greenhouse Module* shortens the growth time, raising throughput on top of whichever recipe the plot is running. It cannot be placed on tree plots.
 
-* Mycelia seeds need this module to grow.
+== Tips
 
-[TIP]
-====
-Can be placed on every plot **except tree plots**
-====
+* Add an *Irrigation + Harvester* pair as soon as you can (both unlock at Tier 3). The combination gives you automated, Fertilizer-boosted output.
+* The *Greenhouse* is a multiplier on everything else: fit it once your Fertilizer supply can keep the faster cycles fed. It cannot be placed on tree plots.
 
-** Power Usage: 5 MW
-** 50x Iron Plate
-** 12x Modular Frame
-** 30x Silica
+== See also
+
+* xref:/ff/buildings/FarmingPlots.adoc[Farming Plots], the plots these modules upgrade
+* xref:/ff/buildings/Composter.adoc[Composter], makes the Fertilizer an Irrigation Module feeds in
+* xref:/ff/buildings/Crops.adoc[Crop reference], normal vs fertilized numbers
+* xref:/ff/index.adoc[Ficsit Farming overview]
+
+== References and Links
+
+* link:https://ficsit.app/mod/FicsitFarming[Ficsit Farming on ficsit.app]
